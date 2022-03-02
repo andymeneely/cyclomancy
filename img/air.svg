@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg21608"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="air.svg">
+  <defs
+     id="defs21602" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="633.23103"
+     inkscape:cy="308.38281"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     width="300px" />
+  <metadata
+     id="metadata21605">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       class=""
+       transform="matrix(0.57338307,0,0,0.57338264,2.5608566,4.5868658)"
+       id="g10310"
+       style="stroke-width:1.74403">
+      <path
+         d="m 164.672,15.316 c -4.24,-0.02 -8.52,-0.008 -12.848,0.032 356.973,34.267 149.668,296.606 -133.02,225.675 v 29.272 c 208.715,52.028 406.9,-83.077 335.225,-186.316 74.252,54.5 10.927,228.767 -217.44,261.272 80.052,-17.795 151.75,-58.013 188.793,-112.78 v -0.003 c -76.777,75.27 -199.896,99.73 -306.61,83.514 v 38.547 l 0.03,0.003 v 29.983 c 103.604,17.95 230.47,-10.83 317.05,-98.192 -64.335,91.95 -198.984,149.52 -317.05,142.64 v 62.942 C 398.408,491.783 590.073,234.433 449.346,98 540.244,253.644 329.481,436.862 141.226,437.258 392.92,399.278 523.24,116.29 322.532,33.352 278.847,22.092 226.428,15.592 164.672,15.316 Z"
+         fill="#48baff"
+         fill-opacity="1"
+         id="path10308"
+         style="stroke-width:57.3449" />
+    </g>
+  </g>
+</svg>

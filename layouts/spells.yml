@@ -1,0 +1,31 @@
+name:
+  x: 90
+  y: 90
+  width: 500
+  height: 50
+  font: Arial 18
+  valign: middle
+  align: left
+  ellipsize: false
+
+reqs:
+  x: 90
+  y: 400
+  width: deck - 180
+  height: 100
+  font: Arial 22
+  align: center
+
+damage:
+  x: 90
+  y: 500
+  width: deck - 180
+  height: 100
+  font: Arial 22
+  align: center
+
+
+version:
+  font: Arial 6
+  x: 725
+  y: 45

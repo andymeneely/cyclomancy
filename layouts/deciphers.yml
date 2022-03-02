@@ -1,9 +1,9 @@
 name:
-  x: 90
-  y: 90
+  x: 200
+  y: 300
   width: 500
   height: 50
-  font: Arial 18
+  font: Archivo Black 36
   valign: middle
   align: left
   ellipsize: false
