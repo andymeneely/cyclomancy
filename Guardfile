@@ -9,8 +9,8 @@ group :default do
   end
 end
 
-group :deck do
-  guard 'rake', :task => 'default' do
+group :spells do
+  guard 'rake', :task => 'spells' do
     watch %r{data/.*\.xlsx$}
     watch %r{data/.*\.csv$}
     watch %r{src/.*\.rb$}

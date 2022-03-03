@@ -10,19 +10,34 @@ name:
 
 reqs:
   x: 90
-  y: 400
-  width: deck - 180
-  height: 100
-  font: Arial 22
-  align: center
-
-damage:
-  x: 90
   y: 500
   width: deck - 180
   height: 100
   font: Arial 22
   align: center
+
+desc:
+  x: 90
+  y: 200
+  width: deck - 180
+  height: 300
+  # hint: red
+  font: Serif 11
+  align: center
+  valign: middle
+
+desc2:
+  extends: desc
+  y: 675
+
+
+stacks:
+  x: 75
+  y: 500
+  # hint: red
+  font: Serif Bold 12
+  align: center
+  valign: middle
 
 
 version:
