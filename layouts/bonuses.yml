@@ -10,11 +10,16 @@ name:
 
 bonus:
   x: 90
-  y: 400
+  y: 350
   width: deck - 180
   height: 100
   font: Arial 22
   align: center
+  # hint: red
+
+bonus2:
+  extends: bonus
+  y: += 125
 
 power:
   x: 90
@@ -24,9 +29,6 @@ power:
   font: Serif 18
   align: center
 
-bonus2:
-  extends: bonus
-  y: += 125
 
 version:
   font: Arial 6

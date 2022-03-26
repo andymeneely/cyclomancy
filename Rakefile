@@ -6,15 +6,14 @@ require 'rake/clean'
 CLEAN.include('_output/*').exclude('_output/gitkeep.txt')
 
 desc 'By default, just build the deck without extra options'
-task default: [:deciphers, :decipher_bonuses, :spells]
+task default: [:spells, :bonuses]
 
 desc 'Build everything, with all the options'
 task all: [:with_pnp, :with_proofs, :default]
 
 desc 'Build the decipher deck'
-task(:deciphers)        { load 'src/deciphers.rb' }
-task(:decipher_bonuses) { load 'src/decipher_bonuses.rb' }
 task(:spells)           { load 'src/spells.rb' }
+task(:bonuses)          { load 'src/bonuses.rb' }
 
 desc 'Enable proof lines'
 task(:with_proofs) do
