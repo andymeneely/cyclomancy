@@ -14,7 +14,7 @@ def embed_icons(embed, keys)
   end
 end
 
-Squib::Deck.new(cards: data.nrows) do
+Squib::Deck.new(cards: data.nrows, height: 600, width: 825) do
   background color: :white
   use_layout file: 'layouts/bonuses.yml'
 
@@ -32,5 +32,6 @@ Squib::Deck.new(cards: data.nrows) do
 
   save_png prefix: 'bonus_'
   save_sheet prefix: 'sheet_bonus_', columns: 8
+  save_pdf file: 'sheet_bonuses.pdf'
 
 end

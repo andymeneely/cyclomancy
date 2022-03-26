@@ -10,7 +10,7 @@ name:
 
 bonus:
   x: 90
-  y: 350
+  y: 200
   width: deck - 180
   height: 100
   font: Arial 22
