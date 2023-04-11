@@ -1,0 +1,15 @@
+desc:
+  x: 0.5in
+  y: 0.5in
+  width: 7in
+  height: 9in
+  font: Arial 18
+  valign: middle
+  align: left
+  # hint: red
+
+embed:
+  width: 18pt
+  height: 18pt
+  dy: -18pt
+

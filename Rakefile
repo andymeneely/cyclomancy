@@ -14,6 +14,7 @@ task all: [:with_pnp, :with_proofs, :default]
 desc 'Build the decipher deck'
 task(:spells)           { load 'src/spells.rb' }
 task(:bonuses)          { load 'src/bonuses.rb' }
+task(:guide)          { load 'src/guide.rb' }
 
 desc 'Enable proof lines'
 task(:with_proofs) do

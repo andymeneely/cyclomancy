@@ -16,21 +16,25 @@ LETTER_EMBEDS = {
   'W' => 'img/water.svg',
   'Z' => 'img/research.svg',
 }
-KEY_EMBEDS =  {
-  ':air:' => 'img/air.svg',
-  ':balloon:' => 'img/balloon.svg',
-  ':craft:' => 'img/craft.svg',
-  ':decipher:' => 'img/decipher.svg',
-  ':mine:' => 'img/mine.svg',
-  ':fire:' => 'img/fire.svg',
-  ':grow:' => 'img/grow.svg',
-  ':hike:' => 'img/hike.svg',
-  ':laborers:' => 'img/laborers.svg',
-  ':meeple:' => 'img/meeple.svg',
-  ':plant:' => 'img/plant.svg',
-  ':apprentice:' => 'img/apprentice.svg',
-  ':stone:' => 'img/stone.svg',
-  ':sow:' => 'img/sow.svg',
-  ':water:' => 'img/water.svg',
-  ':research:' => 'img/research.svg',
-}
+def key_embeds
+  {
+    ':air:' => 'img/air.svg',
+    ':balloon:' => 'img/balloon.svg',
+    ':forge:' => 'img/forge.svg',
+    ':decipher:' => 'img/decipher.svg',
+    ':mine:' => 'img/mine.svg',
+    ':fire:' => 'img/fire.svg',
+    ':grow:' => 'img/grow.svg',
+    ':hike:' => 'img/hike.svg',
+    ':laborers:' => 'img/laborers.svg',
+    ':meeple:' => 'img/meeple.svg',
+    ':plant:' => 'img/plant.svg',
+    ':mage:' => 'img/apprentice.svg',
+    ':scout:' => 'img/scout.svg',
+    ':stone:' => 'img/stone.svg',
+    ':spell:' => 'img/spell.svg',
+    ':sow:' => 'img/sow.svg',
+    ':water:' => 'img/water.svg',
+    ':research:' => 'img/research.svg',
+  }
+end
