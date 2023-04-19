@@ -1,0 +1,12 @@
+name:
+  font: Rothenburg Decorative 24
+  align: center
+  width: deck
+  y: 120
+
+body_font:
+  font: Georgia 12
+
+level:
+  extends: body_font
+

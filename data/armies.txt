@@ -1,0 +1,124 @@
+          ╭------------------------------------╮
+     Name | Orcs                               |
+    Level | normal                             |
+   Attack | Deal 2 Melee damage                |
+Retaliate | Deal 1 damage. Deal 1 damage.      |
+  Special | EASILY AMBUSHED. If attacking them |
+          |  when revealed and they are at ful |
+          | l health, +1 damage per stack.     |
+       HP | 4                                  |
+          ╰------------------------------------╯
+          ╭------------------------------------╮
+     Name | Sappers                            |
+    Level | normal                             |
+   Attack | Deal 2 Damage to Mines.            |
+Retaliate | ROCK THROWERS. Deal 1 damage. Deal |
+          |  another 1 damage if this spell ha |
+          | d Stone.                           |
+  Special |                                    |
+       HP | 3                                  |
+          ╰------------------------------------╯
+          ╭------------------------------------╮
+     Name | Skeleton Archers                   |
+    Level | normal                             |
+   Attack | Deal 3 Ranged damage.              |
+Retaliate | Any player at range takes 1 damage |
+          | .                                  |
+  Special | FIRE RESISTANT.                    |
+       HP | 5                                  |
+          ╰------------------------------------╯
+          ╭------------------------------------╮
+     Name | Adepts                             |
+    Level | normal                             |
+   Attack | Deal 3 Ranged damage               |
+Retaliate | Deal 1 damage to a Mage job.       |
+  Special | MAGIC RESISTANT. The maximum numbe |
+          | r of stacks a spell can cast on Ad |
+          | epts is 2.                         |
+       HP | 3                                  |
+          ╰------------------------------------╯
+          ╭------------------------------------╮
+     Name | Commander                          |
+    Level | normal                             |
+   Attack | Repeat the attack of another activ |
+          | e division, Elite if possible.     |
+Retaliate | Deal damage equal to your Mage rec |
+          | ruitment                           |
+  Special |                                    |
+       HP | 3                                  |
+          ╰------------------------------------╯
+          ╭------------------------------------╮
+     Name | Ogres                              |
+    Level | elite                              |
+   Attack | Deal 3 Melee damage to Workers.    |
+Retaliate | Deal 3 damage.                     |
+  Special | EASILY AMBUSHED. If attacking them |
+          |  when revealed and they are at ful |
+          | l health, +1 damage per stack.     |
+       HP | 8                                  |
+          ╰------------------------------------╯
+          ╭------------------------------------╮
+     Name | Pyromancers                        |
+    Level | elite                              |
+   Attack | Apply Burning to two adjacent play |
+          | ers.  Deal 2 Ranged damage to each |
+          |  of those players.                 |
+Retaliate | If player has any Fire, deal 2 Dam |
+          | age and apply Burning.             |
+  Special |                                    |
+       HP | 7                                  |
+          ╰------------------------------------╯
+          ╭------------------------------------╮
+     Name | Armored Hobgoblins                 |
+    Level | elite                              |
+   Attack | If they have no Shield, deal 1 Mel |
+          | ee damage. Otherwise, deal 4 Melee |
+          |  Damage.                           |
+Retaliate | If this attack broke their shield, |
+          |  deal 1 Melee Damage.              |
+  Special | When revealed, or at the beginning |
+          |  of a round, if they do not have a |
+          |  Shield, gain a Shield.            |
+       HP | 10                                 |
+          ╰------------------------------------╯
+          ╭------------------------------------╮
+     Name | Dark Mage                          |
+    Level | elite                              |
+   Attack | Players must collectively discard  |
+          | Resource tokens equal to the numbe |
+          | r of active Divisions.             |
+Retaliate | Player discards a Resource token   |
+  Special | When defeated, his entire division |
+          |  is defeated.                      |
+       HP | 15                                 |
+          ╰------------------------------------╯
+          ╭------------------------------------╮
+     Name | Orc Rangers                        |
+    Level | elite                              |
+   Attack | Deal 5 Ranged damage to the player |
+          |  farthest away                     |
+Retaliate | Deal 3 damage.                     |
+  Special | When defeated, replace this card w |
+          | ith a face-up Orc                  |
+       HP | 3                                  |
+          ╰------------------------------------╯
+          ╭------------------------------------╮
+     Name | Ninja                              |
+    Level | elite                              |
+   Attack | Deal 2 Melee Damage to a single jo |
+          | b.                                 |
+Retaliate | Riposte.                           |
+  Special |                                    |
+       HP | 5                                  |
+          ╰------------------------------------╯
+          ╭------------------------------------╮
+     Name | Berserkers                         |
+    Level | elite                              |
+   Attack | Deal Ranged or Melee damage equal  |
+          | to the number of hitpoints below t |
+          | he maximum health.                 |
+Retaliate | Take 2 Damage, to a minimum of 1 h |
+          | itpiont.                           |
+  Special |                                    |
+       HP | 10                                 |
+          ╰------------------------------------╯

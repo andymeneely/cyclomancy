@@ -1,0 +1,13 @@
+Name,Level,Attack,Retaliate,Special,HP
+Orcs,normal,Deal 2 Melee damage,Deal 1 damage. Deal 1 damage.,"EASILY AMBUSHED. If attacking them when revealed and they are at full health, +1 damage per stack.",4
+Sappers,normal,Deal 2 Damage to Mines.,ROCK THROWERS. Deal 1 damage. Deal another 1 damage if this spell had Stone.,,3
+Skeleton Archers,normal,Deal 3 Ranged damage.,Any player at range takes 1 damage.,"FIRE RESISTANT.  ",5
+Adepts,normal,Deal 3 Ranged damage,Deal 1 damage to a Mage job.,MAGIC RESISTANT. The maximum number of stacks a spell can cast on Adepts is 2.,3
+Commander,normal,"Repeat the attack of another active division, Elite if possible.",Deal damage equal to your Mage recruitment,,3
+Ogres,elite,Deal 3 Melee damage to Workers.,Deal 3 damage.,"EASILY AMBUSHED. If attacking them when revealed and they are at full health, +1 damage per stack.",8
+Pyromancers,elite,Apply Burning to two adjacent players.  Deal 2 Ranged damage to each of those players.,"If player has any Fire, deal 2 Damage and apply Burning.",,7
+Armored Hobgoblins,elite,"If they have no Shield, deal 1 Melee damage. Otherwise, deal 4 Melee Damage.","If this attack broke their shield, deal 1 Melee Damage.","When revealed, or at the beginning of a round, if they do not have a Shield, gain a Shield. ",10
+Dark Mage,elite,Players must collectively discard Resource tokens equal to the number of active Divisions.,Player discards a Resource token,"When defeated, his entire division is defeated. ",15
+Orc Rangers,elite,Deal 5 Ranged damage to the player farthest away,Deal 3 damage.,"When defeated, replace this card with a face-up Orc",3
+Ninja,elite,Deal 2 Melee Damage to a single job.,Riposte.,,5
+Berserkers,elite,"Deal Ranged or Melee damage equal to the number of hitpoints below the maximum health. ","Take 2 Damage, to a minimum of 1 hitpiont.",,10

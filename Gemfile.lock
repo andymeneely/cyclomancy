@@ -36,6 +36,9 @@ GEM
       guard
       rake
     highline (2.1.0)
+    httparty (0.21.0)
+      mini_mime (>= 1.0.0)
+      multi_xml (>= 0.5.2)
     listen (3.8.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
@@ -43,6 +46,8 @@ GEM
     matrix (0.4.2)
     mercenary (0.4.0)
     method_source (1.0.0)
+    mini_mime (1.1.2)
+    multi_xml (0.6.0)
     native-package-installer (1.1.5)
     nenv (0.3.0)
     nokogiri (1.14.3-arm64-darwin)
@@ -95,6 +100,7 @@ PLATFORMS
 DEPENDENCIES
   guard
   guard-rake
+  httparty
   squib
 
 BUNDLED WITH
