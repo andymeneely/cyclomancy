@@ -1,12 +1,33 @@
 name:
   font: Rothenburg Decorative 24
   align: center
-  width: deck
+  x: 75
   y: 120
+  width: 675
+  ellipsize: autoscale
 
 body_font:
-  font: Georgia 12
+  font: Georgia 9
+  x: 75
+  y: 220
+  width:  675
+  height: 200
+
 
 level:
   extends: body_font
+  x: 600
+
+attack:
+  extends: body_font
+  y: 600
+
+retaliate:
+  extends: body_font
+  y: 350
+
+special:
+  extends: body_font
+  align: center
+  y: 900
 

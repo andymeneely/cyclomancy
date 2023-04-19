@@ -1,17 +1,17 @@
           ╭------------------------------------╮
      Name | Orcs                               |
     Level | normal                             |
-   Attack | Deal 2 Melee damage                |
+   Attack | Move 1. Deal 2 Melee damage        |
 Retaliate | Deal 1 damage. Deal 1 damage.      |
-  Special | EASILY AMBUSHED. If attacking them |
-          |  when revealed and they are at ful |
-          | l health, +1 damage per stack.     |
+  Special | EASILY AMBUSHED | If attacking the |
+          | m when revealed and they are at fu |
+          | ll health, +1 damage per stack.    |
        HP | 4                                  |
           ╰------------------------------------╯
           ╭------------------------------------╮
      Name | Sappers                            |
     Level | normal                             |
-   Attack | Deal 2 Damage to Mines.            |
+   Attack | Move 1. Deal 2 Damage to Mines.    |
 Retaliate | ROCK THROWERS. Deal 1 damage. Deal |
           |  another 1 damage if this spell ha |
           | d Stone.                           |
@@ -24,7 +24,8 @@ Retaliate | ROCK THROWERS. Deal 1 damage. Deal |
    Attack | Deal 3 Ranged damage.              |
 Retaliate | Any player at range takes 1 damage |
           | .                                  |
-  Special | FIRE RESISTANT.                    |
+  Special | FIRE RESISTANT | Reduce damage fro |
+          | m Fire attacks by 2.               |
        HP | 5                                  |
           ╰------------------------------------╯
           ╭------------------------------------╮
@@ -32,37 +33,95 @@ Retaliate | Any player at range takes 1 damage |
     Level | normal                             |
    Attack | Deal 3 Ranged damage               |
 Retaliate | Deal 1 damage to a Mage job.       |
-  Special | MAGIC RESISTANT. The maximum numbe |
-          | r of stacks a spell can cast on Ad |
-          | epts is 2.                         |
+  Special | MAGIC RESISTANT | The maximum numb |
+          | er of stacks a spell can cast on A |
+          | depts is 2.                        |
        HP | 3                                  |
           ╰------------------------------------╯
           ╭------------------------------------╮
      Name | Commander                          |
     Level | normal                             |
-   Attack | Repeat the attack of another activ |
-          | e division, Elite if possible.     |
+   Attack | Move 1. Deal 1 damage to the playe |
+          | r with the lowest health.          |
 Retaliate | Deal damage equal to your Mage rec |
           | ruitment                           |
   Special |                                    |
        HP | 3                                  |
           ╰------------------------------------╯
           ╭------------------------------------╮
+     Name | Forgefiends                        |
+    Level | normal                             |
+   Attack | Add a Shield token to every other  |
+          | division                           |
+Retaliate | Add a Shield token                 |
+  Special |                                    |
+       HP | 3                                  |
+          ╰------------------------------------╯
+          ╭------------------------------------╮
+     Name | Wargs                              |
+    Level | normal                             |
+   Attack | Move 1. Players collectively take  |
+          | 4 damage to Workers                |
+Retaliate | Deal 1 damage to Worker            |
+  Special |                                    |
+       HP | 4                                  |
+          ╰------------------------------------╯
+          ╭------------------------------------╮
+     Name | Falconers                          |
+    Level | normal                             |
+   Attack | Players take 2 Ranged Damage to Wo |
+          | rkers                              |
+Retaliate | Deal damage equal to half of the d |
+          | amage taken, rounded down.         |
+  Special |                                    |
+       HP | 5                                  |
+          ╰------------------------------------╯
+          ╭------------------------------------╮
+     Name | Small Ooze                         |
+    Level | normal                             |
+   Attack | Deal 1 damage                      |
+Retaliate | Deal 1 damage                      |
+  Special |                                    |
+       HP | 1                                  |
+          ╰------------------------------------╯
+          ╭------------------------------------╮
+     Name | Marauders                          |
+    Level | normal                             |
+   Attack | Deal damage equal to total Resourc |
+          | es taken                           |
+Retaliate | Take 1 Resource.                   |
+  Special |                                    |
+       HP | 3                                  |
+          ╰------------------------------------╯
+          ╭------------------------------------╮
+     Name | Decoys                             |
+    Level | normal                             |
+   Attack | Do the FEINT action on this divisi |
+          | on and another.                    |
+Retaliate | Apply Panic                        |
+  Special | FEINT When revealed, make all othe |
+          | r cards in this Division face-down |
+          | , then shuffle them and place them |
+          |  beneath this card.                |
+       HP | 1                                  |
+          ╰------------------------------------╯
+          ╭------------------------------------╮
      Name | Ogres                              |
     Level | elite                              |
-   Attack | Deal 3 Melee damage to Workers.    |
+   Attack | Move 1. Deal 3 Melee damage to Wor |
+          | kers.                              |
 Retaliate | Deal 3 damage.                     |
-  Special | EASILY AMBUSHED. If attacking them |
-          |  when revealed and they are at ful |
-          | l health, +1 damage per stack.     |
+  Special | EASILY AMBUSHED | If attacking the |
+          | m when revealed and they are at fu |
+          | ll health, +1 damage per stack.    |
        HP | 8                                  |
           ╰------------------------------------╯
           ╭------------------------------------╮
      Name | Pyromancers                        |
     Level | elite                              |
    Attack | Apply Burning to two adjacent play |
-          | ers.  Deal 2 Ranged damage to each |
-          |  of those players.                 |
+          | ers.  Deal 2 damage to each of tho |
+          | se players.                        |
 Retaliate | If player has any Fire, deal 2 Dam |
           | age and apply Burning.             |
   Special |                                    |
@@ -76,21 +135,23 @@ Retaliate | If player has any Fire, deal 2 Dam |
           |  Damage.                           |
 Retaliate | If this attack broke their shield, |
           |  deal 1 Melee Damage.              |
-  Special | When revealed, or at the beginning |
-          |  of a round, if they do not have a |
-          |  Shield, gain a Shield.            |
+  Special | SHIELD-OBSESSED | After revealed,  |
+          | or at round start, gain a shield t |
+          | oken if they do not already have o |
+          | ne.                                |
        HP | 10                                 |
           ╰------------------------------------╯
           ╭------------------------------------╮
      Name | Dark Mage                          |
     Level | elite                              |
-   Attack | Players must collectively discard  |
-          | Resource tokens equal to the numbe |
-          | r of active Divisions.             |
-Retaliate | Player discards a Resource token   |
-  Special | When defeated, his entire division |
-          |  is defeated.                      |
-       HP | 15                                 |
+   Attack | Players collectively discard Resou |
+          | rces equal to the number of non-re |
+          | treating Divisions.                |
+Retaliate | Player discards a Resource token a |
+          | nd takes a Wither token.           |
+  Special | FIGUREHEAD | When defeated, his en |
+          | tire division is defeated.         |
+       HP | 10                                 |
           ╰------------------------------------╯
           ╭------------------------------------╮
      Name | Orc Rangers                        |
@@ -98,18 +159,9 @@ Retaliate | Player discards a Resource token   |
    Attack | Deal 5 Ranged damage to the player |
           |  farthest away                     |
 Retaliate | Deal 3 damage.                     |
-  Special | When defeated, replace this card w |
-          | ith a face-up Orc                  |
+  Special | ORCS | When defeated, replace this |
+          |  card with a face-up Orc           |
        HP | 3                                  |
-          ╰------------------------------------╯
-          ╭------------------------------------╮
-     Name | Ninja                              |
-    Level | elite                              |
-   Attack | Deal 2 Melee Damage to a single jo |
-          | b.                                 |
-Retaliate | Riposte.                           |
-  Special |                                    |
-       HP | 5                                  |
           ╰------------------------------------╯
           ╭------------------------------------╮
      Name | Berserkers                         |
@@ -121,4 +173,32 @@ Retaliate | Take 2 Damage, to a minimum of 1 h |
           | itpiont.                           |
   Special |                                    |
        HP | 10                                 |
+          ╰------------------------------------╯
+          ╭------------------------------------╮
+     Name | Siege Machines                     |
+    Level | elite                              |
+   Attack | Two players each take 2 damage     |
+Retaliate | Player takes a Panic token         |
+  Special |                                    |
+       HP | 8                                  |
+          ╰------------------------------------╯
+          ╭------------------------------------╮
+     Name | Abomination                        |
+    Level | elite                              |
+   Attack | Deal 3 Melee damage. Player with t |
+          | he fewest Resources takes a Fear t |
+          | oken                               |
+Retaliate | Player takes a Panic token         |
+  Special |                                    |
+       HP | 6                                  |
+          ╰------------------------------------╯
+          ╭------------------------------------╮
+     Name | Large Ooze                         |
+    Level | elite                              |
+   Attack | Players collectively take 3 damage |
+          |                                    |
+Retaliate | Deal 1 Damage                      |
+  Special | SPLIT | Upon death, create a new D |
+          | ivision two Small Oozes            |
+       HP | 1                                  |
           ╰------------------------------------╯

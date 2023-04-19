@@ -7,7 +7,14 @@ Squib::Deck.new(cards: data.nrows) do
 	background color: :white
 	use_layout file: 'layouts/armies.yml'
 
+	svg file: 'army.svg'
+
 	text layout: :name, str: data.name
+	text layout: :attack, str: data.attack
+	text layout: :retaliate, str: data.retaliate
+	text layout: :special, str: data.special
+	text layout: :level, str: data.level
+
 
 	cut_zone
 	safe_zone

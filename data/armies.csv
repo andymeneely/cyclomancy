@@ -1,13 +1,21 @@
 Name,Level,Attack,Retaliate,Special,HP
-Orcs,normal,Deal 2 Melee damage,Deal 1 damage. Deal 1 damage.,"EASILY AMBUSHED. If attacking them when revealed and they are at full health, +1 damage per stack.",4
-Sappers,normal,Deal 2 Damage to Mines.,ROCK THROWERS. Deal 1 damage. Deal another 1 damage if this spell had Stone.,,3
-Skeleton Archers,normal,Deal 3 Ranged damage.,Any player at range takes 1 damage.,"FIRE RESISTANT.  ",5
-Adepts,normal,Deal 3 Ranged damage,Deal 1 damage to a Mage job.,MAGIC RESISTANT. The maximum number of stacks a spell can cast on Adepts is 2.,3
-Commander,normal,"Repeat the attack of another active division, Elite if possible.",Deal damage equal to your Mage recruitment,,3
-Ogres,elite,Deal 3 Melee damage to Workers.,Deal 3 damage.,"EASILY AMBUSHED. If attacking them when revealed and they are at full health, +1 damage per stack.",8
-Pyromancers,elite,Apply Burning to two adjacent players.  Deal 2 Ranged damage to each of those players.,"If player has any Fire, deal 2 Damage and apply Burning.",,7
-Armored Hobgoblins,elite,"If they have no Shield, deal 1 Melee damage. Otherwise, deal 4 Melee Damage.","If this attack broke their shield, deal 1 Melee Damage.","When revealed, or at the beginning of a round, if they do not have a Shield, gain a Shield. ",10
-Dark Mage,elite,Players must collectively discard Resource tokens equal to the number of active Divisions.,Player discards a Resource token,"When defeated, his entire division is defeated. ",15
-Orc Rangers,elite,Deal 5 Ranged damage to the player farthest away,Deal 3 damage.,"When defeated, replace this card with a face-up Orc",3
-Ninja,elite,Deal 2 Melee Damage to a single job.,Riposte.,,5
+Orcs,normal,Move 1. Deal 2 Melee damage,Deal 1 damage. Deal 1 damage.,"EASILY AMBUSHED | If attacking them when revealed and they are at full health, +1 damage per stack.",4
+Sappers,normal,Move 1. Deal 2 Damage to Mines.,ROCK THROWERS. Deal 1 damage. Deal another 1 damage if this spell had Stone.,,3
+Skeleton Archers,normal,Deal 3 Ranged damage.,Any player at range takes 1 damage.,FIRE RESISTANT | Reduce damage from Fire attacks by 2.,5
+Adepts,normal,Deal 3 Ranged damage,Deal 1 damage to a Mage job.,MAGIC RESISTANT | The maximum number of stacks a spell can cast on Adepts is 2.,3
+Commander,normal,Move 1. Deal 1 damage to the player with the lowest health.,Deal damage equal to your Mage recruitment,,3
+Forgefiends,normal,Add a Shield token to every other division,Add a Shield token,,3
+Wargs,normal,Move 1. Players collectively take 4 damage to Workers,Deal 1 damage to Worker,,4
+Falconers,normal,Players take 2 Ranged Damage to Workers,"Deal damage equal to half of the damage taken, rounded down.",,5
+Small Ooze,normal,Deal 1 damage,Deal 1 damage,,1
+Marauders,normal,Deal damage equal to total Resources taken,Take 1 Resource.,,3
+Decoys,normal,Do the FEINT action on this division and another.,Apply Panic,"FEINT When revealed, make all other cards in this Division face-down, then shuffle them and place them beneath this card.",1
+Ogres,elite,Move 1. Deal 3 Melee damage to Workers.,Deal 3 damage.,"EASILY AMBUSHED | If attacking them when revealed and they are at full health, +1 damage per stack.",8
+Pyromancers,elite,Apply Burning to two adjacent players.  Deal 2 damage to each of those players.,"If player has any Fire, deal 2 Damage and apply Burning.",,7
+Armored Hobgoblins,elite,"If they have no Shield, deal 1 Melee damage. Otherwise, deal 4 Melee Damage.","If this attack broke their shield, deal 1 Melee Damage.","SHIELD-OBSESSED | After revealed, or at round start, gain a shield token if they do not already have one.",10
+Dark Mage,elite,Players collectively discard Resources equal to the number of non-retreating Divisions.,Player discards a Resource token and takes a Wither token.,"FIGUREHEAD | When defeated, his entire division is defeated. ",10
+Orc Rangers,elite,Deal 5 Ranged damage to the player farthest away,Deal 3 damage.,"ORCS | When defeated, replace this card with a face-up Orc",3
 Berserkers,elite,"Deal Ranged or Melee damage equal to the number of hitpoints below the maximum health. ","Take 2 Damage, to a minimum of 1 hitpiont.",,10
+Siege Machines,elite,Two players each take 2 damage,Player takes a Panic token,,8
+Abomination,elite,Deal 3 Melee damage. Player with the fewest Resources takes a Fear token,Player takes a Panic token,,6
+Large Ooze,elite,Players collectively take 3 damage,Deal 1 Damage,"SPLIT | Upon death, create a new Division two Small Oozes",1
