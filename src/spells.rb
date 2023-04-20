@@ -8,7 +8,7 @@ require_relative 'embeds'
 data = Squib.xlsx file: 'data/game.xlsx', sheet: 0
 
 def embed_icons(embed, keys)
-  size = 100
+  size = 85
   keys.each do |k,f|
     embed.svg key: k, file: f, width: size, height: size
   end
@@ -32,7 +32,7 @@ Squib::Deck.new(cards: data.nrows) do
   text(str: data.desc, layout: :desc) { |e| embed_icons_keys(e, key_embeds) }
   text(str: data.desc2, layout: :desc2) { |e| embed_icons_keys(e, key_embeds) }
 
-  text str: data.stacks.map { |s| s.nil? ? '' : "#{s}x" }, layout: :stacks
+  text str: data.stacks, layout: :stacks
 
   # text str: Cyclomancy::VERSION, layout: :version
 

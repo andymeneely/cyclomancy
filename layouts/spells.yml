@@ -1,9 +1,11 @@
 body_font:
-  font: Georgia 9
+  font: Georgia 11
   x: 75
   y: 220
   width:  675
   height: 200
+  ellipsize: autoscale
+  # hint: red
 
 name:
   x: 90
@@ -26,9 +28,9 @@ reqs:
 desc:
   extends: body_font
   x: 90
-  y: 200
+  y: 220
   width: deck - 180
-  height: 300
+  height: 250
   align: center
   valign: middle
   # hint: red
@@ -36,12 +38,18 @@ desc:
 desc2:
   extends: desc
   y: 675
+  height: 350
 
 
 stacks:
   extends: body_font
-  x: 75
-  y: 500
+  font: Georgia Bold 11
+  x: 0
+  y: 600
+  width: 825
+  align: center
+  color: white
+
   # hint: red
 
 version:
