@@ -1,0 +1,25 @@
+Name,Reqs,Stacks,Desc,Desc2,Type
+Prepare,A,3,Add Riposte token,"Gain 1/1/3 Strength ",library
+Gust,AA,3,Deal 1 damage. Move Army left or right.,Gain 1 Worker,starter
+Flaming Vortex,AAF,3,Deal 2 damage to each Army,Deal 4 damage the Army that has the most health,library
+Homing Missile,AAFS,2,Ranged: Deal 4 damage,"Ranged: If the army is known to have the Dark Mage, deal 10 damage",library
+Eye of the Hurricane,AAWWW,1,Deal 4 damage,Deal 3 damage. Deal 1 damage for each player who contributes an AW to this spell.,library
+"Scry ",AF,3,Scout 1,Reduce Army Strength by 1.,starter
+Magma Storm,AFSS,2,Deal 5 damage,Deal 3 damage to two different armies,starter
+Necromancy,AFWS,2,Gain 1 Mage recruitment per damage taken.,Gain 1 Worker recruitment per damage taken,library
+Vine Whip,AP,5,Deal 1 damage,"At 3 Stacks, move Boss one space",starter
+Trebuchet,AS,5,Ranged: 3 Damage,Melee: each player may contribute 1 :stone: to this spell.,starter
+Squall,AW,3,Deal 2 damage,"Remove Burning. At 3 stacks, also remove Burning from a neighbor",starter
+Flame Gambit,F,5,"For each stack, name a number 1-6. Roll a D6. If it equals one of your numbers, deal damage equal to the number of stacks.",Place a marker on Casino for each stack. Your next Casino roll you may modify the roll +/- 1 for each marker.,library
+Fireball,FF,2,Melee: Deal 2 Damage to two different Armies. Player takes Burning.,Ranged: Add 1 :air: (for any number of stacks) to Deal 2 damage to two different Armies.,starter
+Burning coals,FFFPPP,5,"Add an 5 Fire Damage Over Time ",Deal 7 damage,library
+Water Cannon,FWW,3,Deal 3 damage,"Ranged: Deal 2 damage. At 3 stacks, move Boss one space",starter
+Feast,P,4,Gain 1 Worker,Gain 1 Mage,starter
+Rapid Growth,PP,3,Deal 1 damage,Sow 1 seed,library
+Strangling Weeds,PPP,3,Ranged: Deal 4 damage,Melee: Add 3 Damage Over Time,starter
+Binding Roots,PPS,1,"Melee: Add Rooted debuff, deal 2 damage",Ranged: Add Rooted debuff,starter
+Arrow Trap,PS,4,Set a Trap for 2 damage.,Set Trap on your neighbor’s Gate for 1 damage,starter
+Rock Shield,PSS,3,"Add a Shield to your town (max 1). At 2, 3 stacks, a neighbor may take a Shield token.","Melee: If you have a Shield token, deal 3 damage and break the Shield.",library
+Spectral Rangers,PW,3,Scout 2,"Scout 1, Ranged 2.",starter
+Clay Hut,SW,3,Remove one debuff.,Gain 1 Worker,library
+Flood,WWW,3,Apply Vulnerable. Each stack applies Vulnerable to a different Army.,"If Army has Vulnerable, apply Confusion",library

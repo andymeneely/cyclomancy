@@ -1,7 +1,7 @@
 LETTER_EMBEDS = {
   'A' => 'img/air.svg',
   'B' => 'img/balloon.svg',
-  'C' => 'img/craft.svg',
+  # 'C' => 'img/craft.svg',
   'D' => 'img/decipher.svg',
   'E' => 'img/mine.svg',
   'F' => 'img/fire.svg',

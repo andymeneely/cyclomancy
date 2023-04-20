@@ -5,7 +5,8 @@ require_relative 'embeds'
 # Note: run this code by running "rake" at the command line
 # To see full list of options, run "rake -T"
 
-data = Squib.xlsx file: 'data/game.xlsx', sheet: 0
+# data = Squib.xlsx file: 'data/game.xlsx', sheet: 0
+data = Squib.csv file: 'data/spells.csv'
 
 def embed_icons(embed, keys)
   size = 85
@@ -34,8 +35,7 @@ Squib::Deck.new(cards: data.nrows) do
 
   text str: data.stacks, layout: :stacks
 
-  # text str: Cyclomancy::VERSION, layout: :version
-
+  text str: data.type, layout: :type
 
   cut_zone
   build(:proofs) do

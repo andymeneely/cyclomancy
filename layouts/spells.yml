@@ -52,6 +52,12 @@ stacks:
 
   # hint: red
 
+type:
+  font: Georgia 8
+  x: 90
+  y: 1025
+
+
 version:
   font: Arial 6
   x: 725
