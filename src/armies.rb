@@ -20,5 +20,6 @@ Squib::Deck.new(cards: data.nrows) do
 	safe_zone
 
 	save_png prefix: 'army_'
-	save_sheet prefix: '_sheet_army_', columns: 5, rows: 3
+	save_sheet prefix: '_sheet_army_', columns: 4, rows: 3
+	save_pdf file: 'army.pdf', trim: 37.5
 end

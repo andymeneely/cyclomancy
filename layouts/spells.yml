@@ -1,12 +1,19 @@
+body_font:
+  font: Georgia 9
+  x: 75
+  y: 220
+  width:  675
+  height: 200
+
 name:
   x: 90
-  y: 90
-  width: 500
+  y: 120
+  width: 640
   height: 50
-  font: Arial 18
   valign: middle
-  align: left
-  ellipsize: false
+  font: Rothenburg Decorative 24
+  align: center
+  ellipsize: autoscale
 
 reqs:
   x: 90
@@ -17,14 +24,14 @@ reqs:
   align: center
 
 desc:
+  extends: body_font
   x: 90
   y: 200
   width: deck - 180
   height: 300
-  # hint: red
-  font: Serif 11
   align: center
   valign: middle
+  # hint: red
 
 desc2:
   extends: desc
@@ -32,13 +39,10 @@ desc2:
 
 
 stacks:
+  extends: body_font
   x: 75
   y: 500
   # hint: red
-  font: Serif Bold 12
-  align: center
-  valign: middle
-
 
 version:
   font: Arial 6
