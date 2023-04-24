@@ -15,8 +15,13 @@ Squib::Deck.new(width: '8in', height: '10in') do
 
 <b>Meeples</b>
 :mage: Mage
-:laborers: Worker
+:worker: Worker
 :meeple: Mage or Worker
+
+<b>Overnight</b>
+:recruit-mage: Increase Mage recruits
+:recruit-worker: Increase Worker recruits
+:gain: Gain a resource of your choosing
 
 <b>Actions</b>
 :sow: Sow
@@ -24,12 +29,21 @@ Squib::Deck.new(width: '8in', height: '10in') do
 :research: Research
 :balloon: Balloon
 :forge: Forge
-:decipher: Decipher
 :grow: Grow
 :hike: Hike
+:cycle: Gain cycle token
+:scout: Scout
+:hide: Hide
 
-<b>Components</b>
-:spell: Spell
+<b>Buffs and Debuffs</b>
+:strength: Strength
+:weak: Weakened
+:shield: Shield
+:shield-broken: Broken shield
+:confuse: Confuse.
+:panic: Panic
+:burning: Burning. Overnight, if you have any :fire:, convert all :plant: to :fire:. Take 1 damage for every :fire: :fire:
+
 EOS
 
 	text layout: :desc, str: guide_str, markup: true do |embed|
@@ -37,8 +51,6 @@ EOS
 			embed.svg key: key, file: file, layout: :embed
 		end
 	end
-
-
 
 	save_png prefix: 'guide', count_format: ''
 end

@@ -3,13 +3,15 @@ desc:
   y: 0.5in
   width: 7in
   height: 9in
-  font: Arial 18
+  font: Georgia 12
   valign: middle
   align: left
-  # hint: red
+  ellipsize: autoscale
+  hint: red
 
 embed:
-  width: 18pt
-  height: 18pt
-  dy: -18pt
+  width: 11pt
+  height: 11pt
+  dy: -10pt
+  font: Georgia 12
 

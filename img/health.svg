@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg21608"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="health.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs21602" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="633.23103"
+     inkscape:cy="308.38281"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     width="300px"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
+  <metadata
+     id="metadata21605">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="font-variation-settings:normal;display:inline;vector-effect:none;fill:#aa0000;fill-opacity:1;stroke:#000000;stroke-width:9.6993px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:stroke markers fill;stop-color:#000000"
+       d="m 222.34804,27.591645 c -23.2013,0.17239 -47.55797,12.414482 -63.93189,40.187292 l -8.16207,13.828805 -8.10521,-13.858109 C 121.74825,32.877975 85.163615,22.048555 56.086995,30.296665 h -0.01 c -25.65284,7.27794 -45.45239,28.2411 -44.32274,65.003737 1.24697,40.449128 32.05877,74.227078 66.39837,104.677808 17.171318,15.22527 34.949995,29.46269 49.670935,43.49776 8.75508,8.34781 16.5287,16.59676 22.3489,25.29212 5.83785,-8.08557 13.5385,-15.86437 22.22759,-23.94909 15.06757,-14.02143 33.37357,-28.6664 50.95711,-44.32955 35.16639,-31.3243 66.04786,-66.12164 64.90094,-104.133016 -1.17371,-38.735257 -23.8047,-61.161189 -50.9344,-67.181859 a 66.744943,66.744943 0 0 0 -14.9844,-1.58443 z"
+       id="path12677" />
+  </g>
+</svg>
