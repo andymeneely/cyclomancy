@@ -53,4 +53,5 @@ EOS
 	end
 
 	save_png prefix: 'guide', count_format: ''
+	save_pdf file: 'guide.pdf'
 end

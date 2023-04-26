@@ -6,7 +6,7 @@ require 'rake/clean'
 CLEAN.include('_output/*').exclude('_output/gitkeep.txt')
 
 desc 'By default, just build the deck without extra options'
-task default: [:spells, :bonuses, :armies]
+task default: [:spells, :armies]
 
 desc 'Build everything, with all the options'
 task all: [:with_pnp, :with_proofs, :default]

@@ -14,7 +14,7 @@ Squib::Deck.new(cards: data.nrows) do
 	text layout: :retaliate, str: data.retaliate
 	text layout: :special, str: data.special
 	text layout: :level, str: data.level
-
+	text layout: :hp, str: data.hp
 
 	cut_zone
 	safe_zone

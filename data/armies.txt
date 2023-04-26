@@ -4,17 +4,17 @@
    Attack | Move 1. Deal 2 Melee damage        |
 Retaliate | Deal 1 damage. Deal 1 damage.      |
   Special | EASILY AMBUSHED | If attacking the |
-          | m when revealed and they are at fu |
-          | ll health, +1 damage per stack.    |
+          | m when already revealed and they a |
+          | re at full health, +1 damage per s |
+          | tack.                              |
        HP | 4                                  |
           ╰------------------------------------╯
           ╭------------------------------------╮
      Name | Sappers                            |
     Level | normal                             |
-   Attack | Move 1. Deal 2 Damage to Mines.    |
-Retaliate | ROCK THROWERS. Deal 1 damage. Deal |
-          |  another 1 damage if this spell ha |
-          | d Stone.                           |
+   Attack | Move 1. Deal 2 Damage to Workers,  |
+          | ignoring Shield                    |
+Retaliate | Deal 2 damage, ignoring Shield.    |
   Special |                                    |
        HP | 3                                  |
           ╰------------------------------------╯
@@ -31,7 +31,9 @@ Retaliate | Any player at range takes 1 damage |
           ╭------------------------------------╮
      Name | Adepts                             |
     Level | normal                             |
-   Attack | Deal 3 Ranged damage               |
+   Attack | Player with the active spell that  |
+          | has the most Max Stacks takes 2 Da |
+          | mage.                              |
 Retaliate | Deal 1 damage to a Mage job.       |
   Special | MAGIC RESISTANT | The maximum numb |
           | er of stacks a spell can cast on A |
@@ -41,19 +43,20 @@ Retaliate | Deal 1 damage to a Mage job.       |
           ╭------------------------------------╮
      Name | Commander                          |
     Level | normal                             |
-   Attack | Move 1. Deal 1 damage to the playe |
-          | r with the lowest health.          |
-Retaliate | Deal damage equal to your Mage rec |
-          | ruitment                           |
+   Attack | Move 1. Deal Melee damage equal to |
+          |  your Mage recruitment             |
+Retaliate | Deal 1 damage to the player with t |
+          | he lowest health                   |
   Special |                                    |
        HP | 3                                  |
           ╰------------------------------------╯
           ╭------------------------------------╮
      Name | Forgefiends                        |
     Level | normal                             |
-   Attack | Add a Shield token to every other  |
-          | division                           |
-Retaliate | Add a Shield token                 |
+   Attack | Add Shield to the division with th |
+          | e least health. Repair a broken sh |
+          | ield.                              |
+Retaliate | Gain Shield                        |
   Special |                                    |
        HP | 3                                  |
           ╰------------------------------------╯
@@ -87,9 +90,10 @@ Retaliate | Deal 1 damage                      |
           ╭------------------------------------╮
      Name | Marauders                          |
     Level | normal                             |
-   Attack | Deal damage equal to total Resourc |
-          | es taken                           |
-Retaliate | Take 1 Resource.                   |
+   Attack | Steal 1 Resource at Melee range. D |
+          | eal damage equal to total Resource |
+          | s stolen.                          |
+Retaliate | Steal 1 Resource.                  |
   Special |                                    |
        HP | 3                                  |
           ╰------------------------------------╯
@@ -104,6 +108,29 @@ Retaliate | Apply Panic                        |
           | , then shuffle them and place them |
           |  beneath this card.                |
        HP | 1                                  |
+          ╰------------------------------------╯
+          ╭------------------------------------╮
+     Name | Flamewisps                         |
+    Level | normal                             |
+   Attack | Choose a player with Burning, and  |
+          | deal 3 damage to them. Otherwise,  |
+          | apply Burning to two adjacent play |
+          | ers.                               |
+Retaliate | Apply Burning                      |
+  Special |                                    |
+       HP | 4                                  |
+          ╰------------------------------------╯
+          ╭------------------------------------╮
+     Name | Bandits                            |
+    Level | normal                             |
+   Attack | Deal 1 Melee. Steal 1 Resource. Mo |
+          | ve 1. Deal 1 Melee. Steal 1 Resour |
+          | ce.                                |
+Retaliate | Deal Melee 1 damage to Travelers o |
+          | r Druids.                          |
+  Special | TARGET WANDERERS. Only targets Dru |
+          | ids and Travelers.                 |
+       HP | 5                                  |
           ╰------------------------------------╯
           ╭------------------------------------╮
      Name | Ogres                              |
@@ -123,7 +150,8 @@ Retaliate | Deal 3 damage.                     |
           | ers.  Deal 2 damage to each of tho |
           | se players.                        |
 Retaliate | If player has any Fire, deal 2 Dam |
-          | age and apply Burning.             |
+          | age and apply Burning. Otherwise,  |
+          | deal 1 damage                      |
   Special |                                    |
        HP | 7                                  |
           ╰------------------------------------╯
@@ -132,45 +160,45 @@ Retaliate | If player has any Fire, deal 2 Dam |
     Level | elite                              |
    Attack | If they have no Shield, deal 1 Mel |
           | ee damage. Otherwise, deal 4 Melee |
-          |  Damage.                           |
+          |  Damage. (REVISE)                  |
 Retaliate | If this attack broke their shield, |
-          |  deal 1 Melee Damage.              |
+          |  deal 1 Melee Damage. If this atta |
+          | ck removed their shield, deal 2 da |
+          | mage.                              |
   Special | SHIELD-OBSESSED | After revealed,  |
-          | or at round start, gain a shield t |
-          | oken if they do not already have o |
-          | ne.                                |
+          | gain a shield token if they do not |
+          |  already have one.                 |
        HP | 10                                 |
           ╰------------------------------------╯
           ╭------------------------------------╮
      Name | Dark Mage                          |
     Level | elite                              |
-   Attack | Players collectively discard Resou |
-          | rces equal to the number of non-re |
-          | treating Divisions.                |
-Retaliate | Player discards a Resource token a |
-          | nd takes a Wither token.           |
-  Special | FIGUREHEAD | When defeated, his en |
-          | tire division is defeated.         |
+   Attack | Move the Dark Mage to the bottom o |
+          | f this division.                   |
+Retaliate | Player takes Weaken and Wither.    |
+  Special | FIGUREHEAD | When defeated, deal 1 |
+          | 0 damage to the entire army, split |
+          |  however you want.                 |
        HP | 10                                 |
           ╰------------------------------------╯
           ╭------------------------------------╮
      Name | Orc Rangers                        |
     Level | elite                              |
-   Attack | Deal 5 Ranged damage to the player |
+   Attack | Deal 3 Ranged damage to the player |
           |  farthest away                     |
-Retaliate | Deal 3 damage.                     |
-  Special | ORCS | When defeated, replace this |
-          |  card with a face-up Orc           |
-       HP | 3                                  |
+Retaliate | Deal 2 damage.                     |
+  Special | QUICK COUNTER | Retaliates when Re |
+          | vealed without an attack           |
+       HP | 6                                  |
           ╰------------------------------------╯
           ╭------------------------------------╮
      Name | Berserkers                         |
     Level | elite                              |
-   Attack | Deal Ranged or Melee damage equal  |
-          | to the number of hitpoints below t |
-          | he maximum health.                 |
-Retaliate | Take 2 Damage, to a minimum of 1 h |
-          | itpiont.                           |
+   Attack | Players collectively take damage e |
+          | qual to the number of hitpoints be |
+          | low the maximum health.            |
+Retaliate | If, after attack, Berserkers have  |
+          | 3 health or more, take 2 Damage.   |
   Special |                                    |
        HP | 10                                 |
           ╰------------------------------------╯
@@ -201,4 +229,58 @@ Retaliate | Deal 1 Damage                      |
   Special | SPLIT | Upon death, create a new D |
           | ivision two Small Oozes            |
        HP | 1                                  |
+          ╰------------------------------------╯
+          ╭------------------------------------╮
+     Name | Dust Sharks                        |
+    Level | elite                              |
+   Attack | Move 1. Deal 2 damage. Move 1. Dea |
+          | l 2 damage.                        |
+Retaliate | Move 1. Deal 1 damage.             |
+  Special | CONSTANT MOVEMENT. If Rooted and a |
+          | ttempts to move,  Dust Sharks take |
+          |  2 damage and remove Rooted.       |
+       HP | 6                                  |
+          ╰------------------------------------╯
+          ╭------------------------------------╮
+     Name | Witch                              |
+    Level | elite                              |
+   Attack | Place a 4 Damage Over Time token o |
+          | n any player                       |
+Retaliate | Place Panic on a Mage job, or deal |
+          |  2 damage.                         |
+  Special |                                    |
+       HP | 7                                  |
+          ╰------------------------------------╯
+          ╭------------------------------------╮
+     Name | Chaos Demon                        |
+    Level | elite                              |
+   Attack | Choose a random Stolen resource. D |
+          | estroy all of those resources at M |
+          | elee range.                        |
+Retaliate | Steal 1 resource from the attacker |
+          |                                    |
+  Special |                                    |
+       HP | 6                                  |
+          ╰------------------------------------╯
+          ╭------------------------------------╮
+     Name | Elemental                          |
+    Level | elite                              |
+   Attack | Randomly choose a Stolen Resource  |
+          | and deal damage 3 damage to the pl |
+          | ayer with the most of that resourc |
+          | e                                  |
+Retaliate | Steal 1 random resource from the a |
+          | ttacker                            |
+  Special |                                    |
+       HP | 5                                  |
+          ╰------------------------------------╯
+          ╭------------------------------------╮
+     Name | Bannermen                          |
+    Level | elite                              |
+   Attack | Remove tokens. Place a normal, def |
+          | eated army on top of this card at  |
+          | half health, rounded up.           |
+Retaliate | Gain Shield                        |
+  Special |                                    |
+       HP | 5                                  |
           ╰------------------------------------╯

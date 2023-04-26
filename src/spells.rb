@@ -29,7 +29,7 @@ Squib::Deck.new(cards: data.nrows) do
   svg file: 'spell.svg'
 
   text str: data.name, layout: :name
-  text(str: data.reqs, layout: :reqs) { |e| embed_icons(e, LETTER_EMBEDS) }
+  text(str: data.reqs, layout: :reqs) { |e| embed_icons(e, letter_embeds) }
   text(str: data.desc, layout: :desc) { |e| embed_icons_keys(e, key_embeds) }
   text(str: data.desc2, layout: :desc2) { |e| embed_icons_keys(e, key_embeds) }
 

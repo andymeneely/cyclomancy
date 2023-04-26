@@ -31,3 +31,7 @@ special:
   align: center
   y: 900
 
+hp:
+  extends: body_font
+  y: 800
+
