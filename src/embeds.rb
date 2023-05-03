@@ -1,20 +1,19 @@
 def letter_embeds
   {
     'A' => 'img/air.svg',
-    'B' => 'img/balloon.svg',
-    'D' => 'img/decipher.svg',
-    'E' => 'img/mine.svg',
     'F' => 'img/fire.svg',
-    'G' => 'img/grow.svg',
-    'H' => 'img/hike.svg',
-    'L' => 'img/laborers.svg',
-    'M' => 'img/meeple.svg',
     'P' => 'img/plant.svg',
-    'R' => 'img/apprentice.svg',
     'S' => 'img/stone.svg',
-    'T' => 'img/sow.svg',
     'W' => 'img/water.svg',
-    'Z' => 'img/research.svg',
+    # 'B' => 'img/balloon.svg',
+    # 'E' => 'img/mine.svg',
+    # 'G' => 'img/grow.svg',
+    # 'H' => 'img/hike.svg',
+    # 'L' => 'img/worker.svg',
+    # 'M' => 'img/meeple.svg',
+    # 'R' => 'img/mage.svg',
+    # 'T' => 'img/sow.svg',
+    # 'Z' => 'img/research.svg',
   }
 end
 

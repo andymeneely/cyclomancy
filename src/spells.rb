@@ -44,5 +44,5 @@ Squib::Deck.new(cards: data.nrows) do
 
   save_png    prefix: 'spell_'
   save_sheet prefix: '_sheet_spell_', columns: 4, rows: 3
-  save_pdf file: 'sheet_spells.pdf'
+  save_pdf file: 'spells.pdf', trim: 37.5
 end

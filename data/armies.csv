@@ -10,9 +10,9 @@ Falconers,normal,Players take 2 Ranged Damage to Workers,"Deal damage equal to h
 Small Ooze,normal,Deal 1 damage,Deal 1 damage,,1
 Marauders,normal,"Steal 1 Resource at Melee range. Deal damage equal to total Resources stolen. ",Steal 1 Resource.,,3
 Decoys,normal,Do the FEINT action on this division and another.,Apply Panic,"FEINT When revealed, make all other cards in this Division face-down, then shuffle them and place them beneath this card.",1
-Flamewisps,normal,"Choose a player with Burning, and deal 3 damage to them. Otherwise, apply Burning to two adjacent players. ",Apply Burning,,4
+Flamewisps,normal,"Choose a player with Burning, and deal 3 damage to them. Otherwise, apply Burning to two adjacent players. ","Apply Burning. If player already has Burning, continue to the left until applied.",,4
 Bandits,normal,"Deal 1 Melee. Steal 1 Resource. Move 1. Deal 1 Melee. Steal 1 Resource. ","Deal Melee 1 damage to Travelers or Druids. ","TARGET WANDERERS. Only targets Druids and Travelers. ",5
-Ogres,elite,Move 1. Deal 3 Melee damage to Workers.,Deal 3 damage.,"EASILY AMBUSHED | If attacking them when revealed and they are at full health, +1 damage per stack.",8
+Ogres,elite,Move 1. Deal 3 Melee damage to a single Worker job.,Deal 3 damage.,"EASILY AMBUSHED | If attacking them when revealed and they are at full health, +1 damage per stack.",8
 Pyromancers,elite,Apply Burning to two adjacent players.  Deal 2 damage to each of those players.,"If player has any Fire, deal 2 Damage and apply Burning. Otherwise, deal 1 damage ",,7
 Armored Hobgoblins,elite,"If they have no Shield, deal 1 Melee damage. Otherwise, deal 4 Melee Damage. (REVISE)","If this attack broke their shield, deal 1 Melee Damage. If this attack removed their shield, deal 2 damage. ","SHIELD-OBSESSED | After revealed, gain a shield token if they do not already have one.",10
 Dark Mage,elite,"Move the Dark Mage to the bottom of this division. ",Player takes Weaken and Wither.,"FIGUREHEAD | When defeated, deal 10 damage to the entire army, split however you want. ",10
@@ -21,7 +21,7 @@ Berserkers,elite,"Players collectively take damage equal to the number of hitpoi
 Siege Machines,elite,Two players each take 2 damage,Player takes a Panic token,,8
 Abomination,elite,Deal 3 Melee damage. Player with the fewest Resources takes a Fear token,Player takes a Panic token,,6
 Large Ooze,elite,Players collectively take 3 damage,Deal 1 Damage,"SPLIT | Upon death, create a new Division two Small Oozes",1
-Dust Sharks,elite,"Move 1. Deal 2 damage. Move 1. Deal 2 damage. ","Move 1. Deal 1 damage. ","CONSTANT MOVEMENT. If Rooted and attempts to move,  Dust Sharks take 2 damage and remove Rooted. ",6
+Dust Sharks,elite,"Move 1. Deal 2 damage. Move 1. Deal 2 damage. ","Move 1. Deal 1 damage. ","CONSTANT MOVEMENT. Takes +1 damage from Rooted. ",6
 Witch,elite,Place a 4 Damage Over Time token on any player,"Place Panic on a Mage job, or deal 2 damage. ",,7
 Chaos Demon,elite,"Choose a random Stolen resource. Destroy all of those resources at Melee range. ",Steal 1 resource from the attacker,,6
 Elemental,elite,"Randomly choose a Stolen Resource and deal damage 3 damage to the player with the most of that resource ",Steal 1 random resource from the attacker,,5

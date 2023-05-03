@@ -116,7 +116,9 @@ Retaliate | Apply Panic                        |
           | deal 3 damage to them. Otherwise,  |
           | apply Burning to two adjacent play |
           | ers.                               |
-Retaliate | Apply Burning                      |
+Retaliate | Apply Burning. If player already h |
+          | as Burning, continue to the left u |
+          | ntil applied.                      |
   Special |                                    |
        HP | 4                                  |
           ╰------------------------------------╯
@@ -135,8 +137,8 @@ Retaliate | Deal Melee 1 damage to Travelers o |
           ╭------------------------------------╮
      Name | Ogres                              |
     Level | elite                              |
-   Attack | Move 1. Deal 3 Melee damage to Wor |
-          | kers.                              |
+   Attack | Move 1. Deal 3 Melee damage to a s |
+          | ingle Worker job.                  |
 Retaliate | Deal 3 damage.                     |
   Special | EASILY AMBUSHED | If attacking the |
           | m when revealed and they are at fu |
@@ -236,9 +238,8 @@ Retaliate | Deal 1 Damage                      |
    Attack | Move 1. Deal 2 damage. Move 1. Dea |
           | l 2 damage.                        |
 Retaliate | Move 1. Deal 1 damage.             |
-  Special | CONSTANT MOVEMENT. If Rooted and a |
-          | ttempts to move,  Dust Sharks take |
-          |  2 damage and remove Rooted.       |
+  Special | CONSTANT MOVEMENT. Takes +1 damage |
+          |  from Rooted.                      |
        HP | 6                                  |
           ╰------------------------------------╯
           ╭------------------------------------╮
