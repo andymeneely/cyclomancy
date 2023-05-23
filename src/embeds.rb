@@ -36,5 +36,15 @@ def key_embeds
     ':sow:' => 'img/sow.svg',
     ':water:' => 'img/water.svg',
     ':research:' => 'img/research.svg',
+    ':gamble:' => 'img/gamble.svg',
+    ':water-income:' => 'img/water-income.svg',
+    # ':worker-income:' => 'img/worker-income.svg',
+    # ':mage-income:' => 'img/mage-income.svg',
+    # ':sprinker:' => 'img/sprinker.svg',
+    # ':bet:' => 'img/bet.svg',
+    # ':water-tower:' => 'img/water-tower.svg',
+    # ':controlled-burns:' => 'img/controlled-burns.svg',
+    # ':seed:' => 'img/seed.svg',
+    # ':elite-recon:' => 'img/elite-recon.svg',
   }
 end

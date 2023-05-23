@@ -1,0 +1,28 @@
+body_font:
+  font: Georgia 15
+  x: 75
+  y: 220
+  width:  675
+  height: 200
+  ellipsize: autoscale
+  # hint: red
+
+name:
+  x: 90
+  y: 120
+  width: 640
+  height: 50
+  valign: middle
+  font: Archivo Black 24
+  align: center
+  ellipsize: autoscale
+
+desc:
+  extends: body_font
+  x: 90
+  y: 220
+  width: deck - 180
+  height: 250
+  align: center
+  valign: middle
+  # hint: red

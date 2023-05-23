@@ -6,7 +6,7 @@ require 'rake/clean'
 CLEAN.include('_output/*').exclude('_output/gitkeep.txt')
 
 desc 'By default, just build the deck without extra options'
-task default: [:spells, :armies]
+task default: [:spells, :armies, :neighborhoods]
 
 desc 'Build everything, with all the options'
 task all: [:with_pnp, :with_proofs, :default]
@@ -16,6 +16,7 @@ task(:spells)  { load 'src/spells.rb' }
 task(:bonuses) { load 'src/bonuses.rb' }
 task(:guide)   { load 'src/guide.rb' }
 task(:armies)  { load 'src/armies.rb' }
+task(:neighborhoods)  { load 'src/neighborhoods.rb' }
 task(:notion)  { load 'src/notion.rb' }
 
 desc 'Enable proof lines'
