@@ -1,42 +1,37 @@
      ╭------------------------------------╮
+Name | Adventurer’s Guild                 |
+Desc | :balloon: :balloon: :hike: :hike:, |
+     |  :dig:, Travelers x3               |
+     ╰------------------------------------╯
+     ╭------------------------------------╮
+Name | Aqueduct                           |
+Desc | :water-tower:, :water-income:, :ma |
+     | ge: :worker: :worker:              |
+     ╰------------------------------------╯
+     ╭------------------------------------╮
+Name | Arcade                             |
+Desc | :bet: :bet: :bet:, :gamble:, :mage |
+     | : :worker: :worker:,               |
+     ╰------------------------------------╯
+     ╭------------------------------------╮
+Name | Belltower                          |
+Desc | Armorers x2, :hike:, :hike:, :dig: |
+     | , :dig:, :mage: :worker:           |
+     ╰------------------------------------╯
+     ╭------------------------------------╮
 Name | Community Garden                   |
-Desc | Farmers x3, :water-income: :worker |
-     | : :worker:                         |
+Desc | :water-income: :sprinkler:, Farmer |
+     | s x3, :worker: :worker:            |
      ╰------------------------------------╯
      ╭------------------------------------╮
 Name | Docks                              |
-Desc | Captains x2, Sailors x3 :worker: : |
-     | mage:                              |
+Desc | Captains x2, Sailors x3, Squallers |
+     |  x1, :worker: :mage:               |
      ╰------------------------------------╯
      ╭------------------------------------╮
-Name | Masons                             |
-Desc | Armorers x3, Smiths x2 :mage: :mag |
-     | e:                                 |
-     ╰------------------------------------╯
-     ╭------------------------------------╮
-Name | Adventurer’s Guild                 |
-Desc | Travelers x3, :balloon: :balloon:  |
-     | :hike: :hike:                      |
-     ╰------------------------------------╯
-     ╭------------------------------------╮
-Name | Laboratory                         |
-Desc | :2xlibrary: Protege x3, :mage: :wo |
-     | rker:                              |
-     ╰------------------------------------╯
-     ╭------------------------------------╮
-Name | Labor Union                        |
-Desc | Miners x2, Farmers x2, :worker-inc |
-     | ome: :worker:                      |
-     ╰------------------------------------╯
-     ╭------------------------------------╮
-Name | Gamblers                           |
-Desc | :bet: :bet: :bet:, :gamble:, :mage |
-     | : :worker:                         |
-     ╰------------------------------------╯
-     ╭------------------------------------╮
-Name | Airfield                           |
-Desc | Squallers x3, Pyros x2, :mage: :wo |
-     | rker:                              |
+Name | Forest                             |
+Desc | :controlled-burns:, Druids x2, :sp |
+     | rinkler: :seed:, :worker:          |
      ╰------------------------------------╯
      ╭------------------------------------╮
 Name | Foundry                            |
@@ -44,25 +39,39 @@ Desc | Smiths x3, Pyros x2, :mage: :mage: |
      |                                    |
      ╰------------------------------------╯
      ╭------------------------------------╮
-Name | Aqueduct                           |
-Desc | :water-tower:,:water-income:,:mage |
-     | : :worker:                         |
+Name | Global Market                      |
+Desc | :airfield:, Sailors x2, Travelers  |
+     | x4, :worker:                       |
      ╰------------------------------------╯
      ╭------------------------------------╮
-Name | Forest                             |
-Desc | :controlled-burns:, :sprinkler: :s |
-     | eed:, :worker: :worker:            |
+Name | Great Forge                        |
+Desc | Armorers x3, Smiths x2, :mage: :ma |
+     | ge:                                |
      ╰------------------------------------╯
      ╭------------------------------------╮
-Name | Watchtower                         |
-Desc | :elite-recon:, Rangers x1, :mage-i |
-     | ncome: :worker-income:, :mage: :wo |
-     | rker:                              |
+Name | Labor Union                        |
+Desc | Miners x2, Farmers x2, :worker-inc |
+     | ome: :worker:                      |
      ╰------------------------------------╯
      ╭------------------------------------╮
-Name | Wizard Tower                       |
-Desc | :mage-income: :mage-income:, Prote |
-     | ges x2,  :worker:                  |
+Name | Laboratory                         |
+Desc | :2xlibrary:, Protege x3, :mage: :w |
+     | orker:                             |
+     ╰------------------------------------╯
+     ╭------------------------------------╮
+Name | Moat                               |
+Desc | Armorers x3,:gate:,:hospital: :hos |
+     | pital:,:mage: :mage:               |
+     ╰------------------------------------╯
+     ╭------------------------------------╮
+Name | Museum                             |
+Desc | Archivists x4, Botanists x1, Prote |
+     | ges x1, :worker:                   |
+     ╰------------------------------------╯
+     ╭------------------------------------╮
+Name | Quarry                             |
+Desc | :roads:, :dig: :dig:, :seed:, :wor |
+     | ker: :worker: :worker:             |
      ╰------------------------------------╯
      ╭------------------------------------╮
 Name | Railroad                           |
@@ -70,17 +79,22 @@ Desc | :steam-engine:, Pyros x2, :water-i |
      | ncome:,:mage: :worker:             |
      ╰------------------------------------╯
      ╭------------------------------------╮
-Name | Quarry                             |
-Desc | :roads:, :mine: :mine:, :seed:, :w |
-     | orker: :worker: :worker:           |
+Name | Ritual Center                      |
+Desc | :wizard-tower: :research: :researc |
+     | h:, Armorers x1, Smiths x2         |
      ╰------------------------------------╯
      ╭------------------------------------╮
-Name | Museum                             |
-Desc | Archivists x4, Botanists x1, Prote |
-     | ges x1, :mage: :worker:            |
+Name | Watchtower                         |
+Desc | :elite-recon:, Rangers x2, :mage-i |
+     | ncome: :worker-income:, :mage:     |
      ╰------------------------------------╯
      ╭------------------------------------╮
-Name | Moat                               |
-Desc | Armorers x3,:gate:,:hospital: :hos |
-     | pital:,:mage: :mage:               |
+Name | Windmill                           |
+Desc | Squallers x3, Pyros x2, :mage: :wo |
+     | rker:                              |
+     ╰------------------------------------╯
+     ╭------------------------------------╮
+Name | Wizard School                      |
+Desc | :mage-income: :mage-income:, Druid |
+     | s x1, Proteges x2,  :worker:       |
      ╰------------------------------------╯

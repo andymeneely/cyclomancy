@@ -20,9 +20,10 @@ name:
 desc:
   extends: body_font
   x: 90
-  y: 220
+  y: 260
   width: deck - 180
-  height: 250
+  height: 550
   align: center
   valign: middle
+  spacing: 65
   # hint: red
