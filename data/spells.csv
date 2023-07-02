@@ -1,28 +1,28 @@
 Name,Reqs,Stacks,Desc,Desc2,Type
-Prepare,A,3,Remove a Debuff,"At 1 Stack, gain Shield. At 2 Stacks, gain Strong. At 3 Stacks, gain both Shield and Strong",library
+Prepare,A,3,Remove a Debuff from any player per stack.,"At 1 Stack, gain Shield. At 2 Stacks, gain Strong. At 3 Stacks, gain both Shield and Strong",library
 Heist,A,6,"Take 2 Stolen resources per stack. ","Every two stacks, gain 1 resource of any kind. ",library
 Gust,AA,3,Deal 1 damage. Move Army left or right.,Gain 1 Sailor,starter
-Flaming Vortex,AAF,3,Gain 1 Smith and 1 Armorer,Deal 4 damage the Army that has the most health,library
-Homing Missile,AAFS,2,Deal 3 Ranged damage,"If targeting Dark Mage, deal 5 Ranged damage",library
-Hurricane,AAW,3,Deal 4 damage. Each stack applies to a different army.,:water-income:,library
-"Scry ",AF,4,Reveal the top card of a chosen division,"At 2/4 stacks, Reveal the second/third card of a chosen division.",starter
-Necromancy,AFS,2,Take 1 Damage and Gain 1 Mage recruitment per stack.,Take 1 Damage and Gain 2 Worker recruitment per stack.,library
-Shield of Elements,AFSPW,3,"Apply Shield to the next player without a shield, starting with yourself.","During Attack, if this has at least 1 stack, you may clear all resources on this spell to prevent the next debuff applied to you. ",library
-Magma Storm,AFSS,2,Deal 5 damage,:dig: :dig: :dig:,starter
-Vine Whip,AP,4,"Deal 1 damage per stack. ",Gain 1 Druid,starter
-Parry,AS,3,"Deal 1 damage. After retaliation, add 1 Riposte per stack, continuing to next player. ","If you have Riposte, deal 4 damage and remove Riposte",starter
+Flaming Vortex,AAF,3,Gain 1 Smith and 1 Armorer,Deal 4 damage to the Army that has the most health,library
+Hurricane,AAW,3,Deal 4 damage. Each stack applies to a different Army.,:water-income:,library
+"Scry ",AF,4,"Reveal the top X spell cards (X is stacks), and return them to the top of the deck in any order you choose.","If the Army has Confusion, deal 2 damage per stack.",starter
+Necromancy,AFF,2,Take 1 Damage and Gain 1 Mage recruitment per stack.,Take 1 Damage and Gain 2 Worker recruitment per stack.,library
+Homing Missile,AFS,2,Deal 3 Ranged damage per stack,"If targeting Dark Mage, deal 5 Ranged damage",library
+Magma Storm,AFS,2,Deal 5 damage per stack,:dig: :dig: per stack.,library
+Vine Whip,AP,4,"Deal 1 damage per stack. ",Gain 1 Druid per stack,starter
+Parry,AS,3,"Deal 1 damage. After retaliation, gain 1 Riposte per stack, continuing to next player. ","If you have Riposte, deal 4 damage and remove Riposte",starter
 Trebuchet,AS,5,Ranged: 2 Damage,Gain 1 Captain,starter
 Squall,AW,3,Deal 2 damage,"Remove Burning. At 3 stacks, also remove Burning from a neighbor",starter
-Flame Gambit,F,5,"For each stack, guess a number 1-6. Roll a D6. If one of your guesses is correct, deal damage equal to the number of stacks.","For each stack, guess a number 1-6. Roll a D6. If one of your guesses is correct, gain 1 Mage for every 2 stacks.",library
-Fireball,FF,2,Melee: Deal 4 Damage per stack. Caster takes Burning.,Ranged: Deal 3 damage per stack.,starter
-Eruption,FS,4,Ranged: 3 Damage per stack.,:dig: :dig: :dig:,
-Water Cannon,FWW,3,Deal 3 damage,:forge: :dig: :scout:,starter
-Conversion,Mage or Worker,3,"Gain 1 Mage per stack ",Gain 1 Worker per stack,starter
-Feast,P,4,Gain 1 Worker,Gain 1 Mage,starter
-Rapid Growth,PP,3,Deal 1 damage per stack,Sow 1 seed,library
-Binding Roots,PPS,3,"Melee: Add Rooted debuff, deal 2 damage",:hike: :dig: :dig:,starter
+Flame Gambit,F,5,"For each stack, guess a number 1-6. Roll a D6. If one of your guesses is correct, deal damage equal to the number of stacks.","For each stack, guess a number 1-6. Roll a D6. If one of your guesses is correct, gain 1 Mage for every 2 stacks.",starter
+Fireball,FF,5,Melee: Deal 4 Damage per stack. Caster takes Burning.,Ranged: Deal 3 damage per stack.,starter
+Eruption,FS,4,3 Ranged Damage per stack.,:dig: :dig: :dig: per stack,library
+Shield of Elements,FWS,3,"Gain Shield, continuing to the next player without a shield,","During Attack, if this has at least 1 stack, you may clear all resources on this spell to prevent the next debuff applied to you. ",library
+Water Cannon,FWW,3,Deal 3 damage per stack,Deal 2 Damage to 2 different Armies per stack.,starter
+Feast,P,4,Gain 1 Worker per stack,Gain 1 Mage per stack,starter
+Rapid Growth,PP,3,Deal 1 damage per stack,Sow 1 seed per stack,starter
+Plentiful Roots,PPS,3,Deal 1 damage per stack. Deal an extra 2 damage if the army is Rooted.,Gain 1 Worker. Apply Rooted.,starter
 Rock Shield,PSS,3,"Gain Shield, continuing to next player on more stacks.","Melee: If you have a Shield token, deal 3 damage per stack, and break the Shield.",library
 Brain Food,PW,3,:research: :research:,Gain 1 Protege,starter
-Shield Bash,SSP,2,"If you have a Shield token, deal 3 Melee damage and take damage to your shield. ",Any player gains a Shield token,starter
-Clay Hut,SW,3,Remove one debuff.,Gain 1 Worker,library
+Shield Bash,SP,2,"If you have a Shield token, deal 3 Melee damage per stack, and break your shield. ","Any player gains a Shield token, per stack.",starter
+Clay Hut,SW,3,"Remove one debuff per stack, continuing to next player.",Gain 1 Worker,library
+Cleanse,W,3,Deal 1 Melee damage,"Remove a Debuff per stack. Also, remove Burning from any player per stack.",starter
 Flood,WWW,3,Apply Vulnerable. Each stack applies Vulnerable to a different Army.,"If Army has Vulnerable, apply Confusion",library

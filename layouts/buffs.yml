@@ -1,0 +1,28 @@
+name:
+  x: 225
+  y: 75
+  width: deck - 275
+  font: Open Sans Bold 12
+  align: center
+
+type:
+  font: Georgia 8
+  x: 225
+  y: 150
+  width: deck - 275
+  align: center
+
+desc:
+  font: Georgia 10
+  x: 75
+  y: 250
+  width: deck - 150
+  height: deck - 325
+  align: center
+  valign: middle
+
+icon:
+  width: 150
+  height: 150
+  x: 75
+  y: 75

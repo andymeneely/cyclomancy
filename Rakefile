@@ -16,6 +16,8 @@ task(:spells)  { load 'src/spells.rb' }
 task(:bonuses) { load 'src/bonuses.rb' }
 task(:guide)   { load 'src/guide.rb' }
 task(:armies)  { load 'src/armies.rb' }
+task(:buffs)   { load 'src/buffs.rb' }
+task(:prestige) { load 'src/prestige.rb' }
 task(:neighborhoods)  { load 'src/neighborhoods.rb' }
 task(:notion)  { load 'src/notion.rb' }
 
