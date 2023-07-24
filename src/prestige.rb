@@ -33,6 +33,6 @@ Squib::Deck.new(cards: data.nrows, width: 825, height: 600) do
   # end
 
   save_png    prefix: 'prestige_'
-  save_sheet prefix: '_sheet_prestige_', columns: 4, rows: 4
+  save_sheet prefix: '_sheet_prestige_', columns: 4, rows: 6
   # save_pdf file: 'prestige.pdf', trim: 37.5
 end

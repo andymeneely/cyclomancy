@@ -1,16 +1,25 @@
 Icon,Name,Description,img
-balloon,Airfield,Balloon :balloon: action may be used to transport 3 Resources or Meeples from one player to any other player.,
+balloon,Airfield,Balloon :balloon: action may be used to transport 3 Resources from one player to any other player.,
 balloon,Cleansing Wind,Balloon :balloon: may be used to remove a Debuff from any player,
+balloon,Balloon Rides,Balloon :balloon: may be used to transport 2 Meeples from one player to another.,
+balloon,Foreign Expertise,,foreign-expertise.svg
 card,Wizard Tower,"When you cast a spell, you may spend some stacks on top and some on bottom.",
 card,Logistics,Apply Continue to all buffs you gain,
 card,Architecture,"When you play this card, play a previously unplayed Neighborhood card from the box. This card cannot be replaced.",
+card,Prediction,"When any player draws a Spell, they may draw an extra spell card. If they do, discard a Spell.",
 fire,Controlled Burns,,controlled-burns.svg
 fire,Flint,"If you have :stone: and no :fire:, you may gain a :fire:",
 fire,Casino Owner,"At each Overnight  :gamble:, you may reroll a single die once before taking a bonus. (All players still use the new total.)",
+fire,Eternal Flame,"If you have :fire:, you may give yourself Burning :burning: If you have :burning:, you may apply Potent :potent: to your current spell.",
 scout,Elite Recon,"When you :scout:, you may reveal the next face-down enemy, instead of only the top card.",
-scout,Guerilla Tactics,"When you :scout: an enemy, place Confusion on them.",
+scout,Guerilla Tactics,"When you :scout: an enemy, you may place Confusion :confusion: on them.",
 scout,Prospecting,,prospecting.svg
+scout,Containment Tactics,"When you :scout: an enemy, you may place Rooted :rooted: on the Army.",
 stone,Roads,You may spend :stone: :stone: to cycle everyone’s spells in the middle of Player phase.,
 stone,Precious Metals,,precious-metals.svg
-water,Water Tower,"Once per round, you may tap this card to gain :water: equal to your  :water-income:. Untap during Buffs phase.",
+stone,Traps,You may tap this card to prevent a Steal from any player. For :stone: :stone: this card may be untapped.,
+stone,Training,"Once per round, you may pay :stone: :stone: for any player to gain :strong:",
+water,Water Tower,"You may tap this card to gain :water: equal to your  :water-income:. You may remove a Strong :strong: buff, and if you do you may untap this card.",
 water,Extinguishers,You may spend :water: :water: to remove Burning from any player.,
+water,Irrigation,"During Overnight, you may pay any amount of :water: for another player’s Grow action.",
+water,Hydraulics,"When you Dig :dig:, you may spend a :water: to :dig: a second time.",
