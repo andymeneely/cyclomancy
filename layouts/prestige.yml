@@ -1,0 +1,64 @@
+name:
+  font: Rothenburg Decorative 24
+  align: center
+  x: 225
+  y: 120
+  width: 525
+  ellipsize: autoscale
+
+clear_name:
+  font: Georgia Bold 10
+  x: 75
+  y: 235
+  width: 675
+  align: center
+
+body_font:
+  font: Georgia 9
+  x: 75
+  y: 220
+  width:  675
+  height: 200
+
+icon:
+  x: 75
+  y: 75
+  width: 150
+  height: 150
+
+description:
+  font: Georgia 9
+  x: 75
+  y: 315
+  width: 675
+  height: 200
+  align: center
+  valign: middle
+
+img:
+  x: 112.5
+  y: 315
+  width: 400
+  height: 200
+
+level:
+  extends: body_font
+  x: 600
+
+attack:
+  extends: body_font
+  y: 600
+
+retaliate:
+  extends: body_font
+  y: 350
+
+special:
+  extends: body_font
+  align: center
+  y: 900
+
+hp:
+  extends: body_font
+  y: 800
+

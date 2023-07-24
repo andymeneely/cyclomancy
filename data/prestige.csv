@@ -1,0 +1,16 @@
+Icon,Name,Description,img
+balloon,Airfield,Balloon :balloon: action may be used to transport 3 Resources or Meeples from one player to any other player.,
+balloon,Cleansing Wind,Balloon :balloon: may be used to remove a Debuff from any player,
+card,Wizard Tower,"When you cast a spell, you may spend some stacks on top and some on bottom.",
+card,Logistics,Apply Continue to all buffs you gain,
+card,Architecture,"When you play this card, play a previously unplayed Neighborhood card from the box. This card cannot be replaced.",
+fire,Controlled Burns,,controlled-burns.svg
+fire,Flint,"If you have :stone: and no :fire:, you may gain a :fire:",
+fire,Casino Owner,"At each Overnight  :gamble:, you may reroll a single die once before taking a bonus. (All players still use the new total.)",
+scout,Elite Recon,"When you :scout:, you may reveal the next face-down enemy, instead of only the top card.",
+scout,Guerilla Tactics,"When you :scout: an enemy, place Confusion on them.",
+scout,Prospecting,,prospecting.svg
+stone,Roads,You may spend :stone: :stone: to cycle everyone’s spells in the middle of Player phase.,
+stone,Precious Metals,,precious-metals.svg
+water,Water Tower,"Once per round, you may tap this card to gain :water: equal to your  :water-income:. Untap during Buffs phase.",
+water,Extinguishers,You may spend :water: :water: to remove Burning from any player.,
