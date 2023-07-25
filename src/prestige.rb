@@ -5,6 +5,7 @@ require_relative 'refinements'
 using Squib::ArrayExtras
 
 data = Squib.csv file: 'data/prestige.csv'
+File.open('data/tech.txt', 'w+') { |f| f.write data.to_pretty_text }
 
 def embed_icons(embed, keys)
   size = 40

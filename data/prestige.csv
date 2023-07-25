@@ -3,13 +3,13 @@ balloon,Airfield,Balloon :balloon: action may be used to transport 3 Resources f
 balloon,Cleansing Wind,Balloon :balloon: may be used to remove a Debuff from any player,
 balloon,Balloon Rides,Balloon :balloon: may be used to transport 2 Meeples from one player to another.,
 balloon,Foreign Expertise,,foreign-expertise.svg
+card,Architecture,"When you play this card, play a previously unplayed Neighborhood card from the box. This card cannot be replaced.",
 card,Wizard Tower,"When you cast a spell, you may spend some stacks on top and some on bottom.",
 card,Logistics,Apply Continue to all buffs you gain,
-card,Architecture,"When you play this card, play a previously unplayed Neighborhood card from the box. This card cannot be replaced.",
-card,Prediction,"When any player draws a Spell, they may draw an extra spell card. If they do, discard a Spell.",
+card,Prophesy,"When any player draws a Spell, they may draw an extra spell card. If they do, discard a Spell.",
 fire,Controlled Burns,,controlled-burns.svg
 fire,Flint,"If you have :stone: and no :fire:, you may gain a :fire:",
-fire,Casino Owner,"At each Overnight  :gamble:, you may reroll a single die once before taking a bonus. (All players still use the new total.)",
+fire,Advanced Gaming,"At each Overnight  :gamble:, you may reroll a single die once before taking a bonus. (All players still use the new total.)",
 fire,Eternal Flame,"If you have :fire:, you may give yourself Burning :burning: If you have :burning:, you may apply Potent :potent: to your current spell.",
 scout,Elite Recon,"When you :scout:, you may reveal the next face-down enemy, instead of only the top card.",
 scout,Guerilla Tactics,"When you :scout: an enemy, you may place Confusion :confusion: on them.",

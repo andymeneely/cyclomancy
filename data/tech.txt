@@ -1,0 +1,185 @@
+            ╭------------------------------------╮
+       Icon | balloon                            |
+       Name | Airfield                           |
+Description | Balloon :balloon: action may be us |
+            | ed to transport 3 Resources from o |
+            | ne player to any other player.     |
+        img |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Icon | balloon                            |
+       Name | Cleansing Wind                     |
+Description | Balloon :balloon: may be used to r |
+            | emove a Debuff from any player     |
+        img |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Icon | balloon                            |
+       Name | Balloon Rides                      |
+Description | Balloon :balloon: may be used to t |
+            | ransport 2 Meeples from one player |
+            |  to another.                       |
+        img |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Icon | balloon                            |
+       Name | Foreign Expertise                  |
+Description |                                    |
+        img | foreign-expertise.svg              |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Icon | card                               |
+       Name | Architecture                       |
+Description | When you play this card, play a pr |
+            | eviously unplayed Neighborhood car |
+            | d from the box. This card cannot b |
+            | e replaced.                        |
+        img |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Icon | card                               |
+       Name | Wizard Tower                       |
+Description | When you cast a spell, you may spe |
+            | nd some stacks on top and some on  |
+            | bottom.                            |
+        img |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Icon | card                               |
+       Name | Logistics                          |
+Description | Apply Continue to all buffs you ga |
+            | in                                 |
+        img |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Icon | card                               |
+       Name | Prophesy                           |
+Description | When any player draws a Spell, the |
+            | y may draw an extra spell card. If |
+            |  they do, discard a Spell.         |
+        img |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Icon | fire                               |
+       Name | Controlled Burns                   |
+Description |                                    |
+        img | controlled-burns.svg               |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Icon | fire                               |
+       Name | Flint                              |
+Description | If you have :stone: and no :fire:, |
+            |  you may gain a :fire:             |
+        img |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Icon | fire                               |
+       Name | Advanced Gaming                    |
+Description | At each Overnight  :gamble:, you m |
+            | ay reroll a single die once before |
+            |  taking a bonus. (All players stil |
+            | l use the new total.)              |
+        img |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Icon | fire                               |
+       Name | Eternal Flame                      |
+Description | If you have :fire:, you may give y |
+            | ourself Burning :burning: If you h |
+            | ave :burning:, you may apply Poten |
+            | t :potent: to your current spell.  |
+        img |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Icon | scout                              |
+       Name | Elite Recon                        |
+Description | When you :scout:, you may reveal t |
+            | he next face-down enemy, instead o |
+            | f only the top card.               |
+        img |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Icon | scout                              |
+       Name | Guerilla Tactics                   |
+Description | When you :scout: an enemy, you may |
+            |  place Confusion :confusion: on th |
+            | em.                                |
+        img |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Icon | scout                              |
+       Name | Prospecting                        |
+Description |                                    |
+        img | prospecting.svg                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Icon | scout                              |
+       Name | Containment Tactics                |
+Description | When you :scout: an enemy, you may |
+            |  place Rooted :rooted: on the Army |
+            | .                                  |
+        img |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Icon | stone                              |
+       Name | Roads                              |
+Description | You may spend :stone: :stone: to c |
+            | ycle everyone’s spells in the midd |
+            | le of Player phase.                |
+        img |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Icon | stone                              |
+       Name | Precious Metals                    |
+Description |                                    |
+        img | precious-metals.svg                |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Icon | stone                              |
+       Name | Traps                              |
+Description | You may tap this card to prevent a |
+            |  Steal from any player. For :stone |
+            | : :stone: this card may be untappe |
+            | d.                                 |
+        img |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Icon | stone                              |
+       Name | Training                           |
+Description | Once per round, you may pay :stone |
+            | : :stone: for any player to gain : |
+            | strong:                            |
+        img |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Icon | water                              |
+       Name | Water Tower                        |
+Description | You may tap this card to gain :wat |
+            | er: equal to your  :water-income:. |
+            |  You may remove a Strong :strong:  |
+            | buff, and if you do you may untap  |
+            | this card.                         |
+        img |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Icon | water                              |
+       Name | Extinguishers                      |
+Description | You may spend :water: :water: to r |
+            | emove Burning from any player.     |
+        img |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Icon | water                              |
+       Name | Irrigation                         |
+Description | During Overnight, you may pay any  |
+            | amount of :water: for another play |
+            | er’s Grow action.                  |
+        img |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Icon | water                              |
+       Name | Hydraulics                         |
+Description | When you Dig :dig:, you may spend  |
+            | a :water: to :dig: a second time.  |
+        img |                                    |
+            ╰------------------------------------╯
