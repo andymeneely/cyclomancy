@@ -66,8 +66,8 @@ group :buffs do
   end
 end
 
-group :prestige do
-  guard 'rake', :task => 'prestige' do
+group :tech do
+  guard 'rake', :task => 'tech' do
     watch %r{data/.*\.xlsx$}
     watch %r{data/.*\.csv$}
     watch %r{src/.*\.rb$}
