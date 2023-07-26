@@ -1,22 +1,37 @@
      ╭------------------------------------╮
 Name | Adventurer’s Guild                 |
-Desc | :balloon: :balloon: :hike: :hike:, |
-     |  :dig:, Travelers x3               |
+Desc | Gain Foreign Expertise, :balloon:  |
+     | :balloon: :hike: :hike:, :dig:, Tr |
+     | avelers x2                         |
      ╰------------------------------------╯
      ╭------------------------------------╮
-Name | Aqueduct                           |
-Desc | :water-tower:, :water-income:, :ma |
-     | ge: :worker: :worker:              |
+Name | Agro                               |
+Desc | Gain Irrigation, Botanists x2, :se |
+     | ed:, :water income:, :worker-incom |
+     | e:, :mage:                         |
      ╰------------------------------------╯
      ╭------------------------------------╮
 Name | Arcade                             |
-Desc | :bet: :bet: :bet:, :gamble:, :mage |
-     | : :worker: :worker:,               |
+Desc | Gain Advanced Gaming, :bet: :bet:, |
+     |  :gamble:, :mage: :worker: :worker |
+     | :                                  |
+     ╰------------------------------------╯
+     ╭------------------------------------╮
+Name | Barracks                           |
+Desc | Gain Guerilla Tactics, Gain Contai |
+     | nment, :bet:, :worker-income: :mag |
+     | e-income:, :worker:                |
      ╰------------------------------------╯
      ╭------------------------------------╮
 Name | Belltower                          |
 Desc | Armorers x2, :hike:, :hike:, :dig: |
      | , :dig:, :mage: :worker:           |
+     ╰------------------------------------╯
+     ╭------------------------------------╮
+Name | Boomtown                           |
+Desc | Gain Prospecting, Druids x1, :ball |
+     | oon:, :worker-income:, :worker: :w |
+     | orker: :worker:                    |
      ╰------------------------------------╯
      ╭------------------------------------╮
 Name | Community Garden                   |
@@ -29,19 +44,25 @@ Desc | Captains x2, Sailors x3, Squallers |
      |  x1, :worker: :mage:               |
      ╰------------------------------------╯
      ╭------------------------------------╮
+Name | Engineering Guild                  |
+Desc | Gain Hydraulics, :water:., :water: |
+     | , :water:, :dig:, :dig:, :mage-inc |
+     | ome:, :worker:                     |
+     ╰------------------------------------╯
+     ╭------------------------------------╮
 Name | Forest                             |
-Desc | :controlled-burns:, Druids x2, :sp |
-     | rinkler: :seed:, :worker:          |
+Desc | Gain Controlled Burns, Druids x2,  |
+     | :sprinkler: :seed:, :worker:       |
      ╰------------------------------------╯
      ╭------------------------------------╮
 Name | Foundry                            |
-Desc | Smiths x3, Pyros x2, :mage: :mage: |
-     |                                    |
+Desc | Smiths x3, Pyros x2, :worker-incom |
+     | e:, :mage: :mage:                  |
      ╰------------------------------------╯
      ╭------------------------------------╮
 Name | Global Market                      |
-Desc | :airfield:, Sailors x2, Travelers  |
-     | x4, :worker:                       |
+Desc | Gain Airfield, Sailors x2, Travele |
+     | rs x4, :worker:                    |
      ╰------------------------------------╯
      ╭------------------------------------╮
 Name | Great Forge                        |
@@ -69,24 +90,35 @@ Desc | Archivists x4, Botanists x1, Prote |
      | ges x1, :worker:                   |
      ╰------------------------------------╯
      ╭------------------------------------╮
+Name | Port                               |
+Desc | Gain Logistics, :seed:, :forge:, : |
+     | forge:, Armorers x3                |
+     ╰------------------------------------╯
+     ╭------------------------------------╮
 Name | Quarry                             |
-Desc | :roads:, :dig: :dig:, :seed:, :wor |
-     | ker: :worker: :worker:             |
+Desc | Gain Roads. :dig: :dig:, :seed:, : |
+     | worker: :worker: :worker:          |
      ╰------------------------------------╯
      ╭------------------------------------╮
 Name | Railroad                           |
-Desc | :steam-engine:, Pyros x2, :water-i |
-     | ncome:,:mage: :worker:             |
+Desc | Unlock :steam-engine:, Pyros x2, : |
+     | water-income:,:mage: :worker:      |
      ╰------------------------------------╯
      ╭------------------------------------╮
 Name | Ritual Center                      |
-Desc | :wizard-tower: :research: :researc |
-     | h:, Armorers x1, Smiths x2         |
+Desc | Gain Wizard Tower. :research: :res |
+     | earch:, Armorers x1, Smiths x2     |
      ╰------------------------------------╯
      ╭------------------------------------╮
 Name | Watchtower                         |
-Desc | :elite-recon:, Rangers x2, :mage-i |
-     | ncome: :worker-income:, :mage:     |
+Desc | Gain Elite Recon. Rangers x2, :mag |
+     | e-income: :worker-income:, :mage:, |
+     |  :scout:                           |
+     ╰------------------------------------╯
+     ╭------------------------------------╮
+Name | Water Tower                        |
+Desc | Gain Aqueduct, :water-income:, :ma |
+     | ge: :worker: :worker:              |
      ╰------------------------------------╯
      ╭------------------------------------╮
 Name | Windmill                           |
