@@ -1,8 +1,8 @@
 Name,Type,Desc
-Shield,Buff,"Next attack deals no damage. If full, switch to broken. If broken, remove."
-Strength,Buff,+1 Damage per stack on your casts
-Burning,Debuff,"If you have at least one Fire, during Overnight phase, convert all Plants to Fire. Then, take 1 Damage per 2 Fire after this."
-Confusion,Enemy Debuff,"When this Minion would Retaliate, instead remove this token"
-Rooted,Enemy Debuff,"When the army would move, this Enemy takes 1 damage instead. Remove this token. "
+Shield,"Player, Enemy Buff","Next attack deals no damage. If full, switch to broken. If broken, remove."
+Strength,"Player, Enemy Buff",+1 Damage per stack on your casts
+Burning,Player Debuff,"During Overnight phase: if you have at least one :fire:, convert all :plant: to :fire:. Then, take 1 Damage per :fire: :fire:."
+Confusion,Enemy Debuff,"When this Enemy would Retaliate, instead remove this token"
+Rooted,Enemy Debuff,"When the army would move, they take 1 damage instead. Remove this token."
 Weakened,Spell Debuff,Max stacks on this spell is 1. This spell must remain Active until this debuff is removed.
-Potent,Spell Buff,"When you cast this spell, apply the effect as if you had an extra stack. (Spell buffs are removed when taken out of slot.)"
+Potent,Spell Buff,"When you cast this spell, apply the effect as if you had an extra stack. (Spell buffs are removed when taken out of Active.)"
