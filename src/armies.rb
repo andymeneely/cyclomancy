@@ -1,7 +1,16 @@
 require 'squib'
+require_relative 'embeds'
 
 data = Squib.csv file: 'data/armies.csv'
+
 File.open('data/armies.txt', 'w+') { |f| f.write data.to_pretty_text }
+
+def embed_icons(embed)
+  size = 60
+  key_embeds.each do |k,f|
+    embed.svg key: k, file: f, width: size, height: size, dy: -30
+  end
+end
 
 Squib::Deck.new(cards: data.nrows) do
 	background color: :white
@@ -12,7 +21,7 @@ Squib::Deck.new(cards: data.nrows) do
 	text layout: :name, str: data.name
 	text layout: :attack, str: data.attack
 	text layout: :retaliate, str: data.retaliate
-	text layout: :special, str: data.special
+	text(layout: :special, str: data.special) { |e| embed_icons(e) }
 	text layout: :level, str: data.level
 	text layout: :hp, str: data.hp
 

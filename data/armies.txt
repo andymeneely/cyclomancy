@@ -2,20 +2,20 @@
      Name | Orcs                               |
     Level | normal                             |
    Attack | Move 1. Deal 2 Melee damage        |
-Retaliate | Deal 1 damage. Deal 1 damage.      |
-  Special | EASILY AMBUSHED | If attacking the |
-          | m when already revealed and they a |
-          | re at full health, +1 damage per s |
-          | tack.                              |
+Retaliate | Deal 1 damage. Remove a Player Buf |
+          | f.                                 |
+  Special | EASILY AMBUSHED | When revealed vi |
+          | a :scout:, they take 1 damage.     |
        HP | 4                                  |
           ╰------------------------------------╯
           ╭------------------------------------╮
-     Name | Sappers                            |
+     Name | Goblin Sappers                     |
     Level | normal                             |
    Attack | Move 1. Deal 2 Damage to Workers,  |
           | ignoring Shield                    |
 Retaliate | Deal 2 damage, ignoring Shield.    |
-  Special |                                    |
+  Special | PUT ‘EM TO WORK | Overkill bonus:  |
+          | :mine: :mine:                      |
        HP | 3                                  |
           ╰------------------------------------╯
           ╭------------------------------------╮
@@ -34,7 +34,7 @@ Retaliate | Any player at range takes 1 damage |
    Attack | Player with the active spell that  |
           | has the most Max Stacks takes 2 Da |
           | mage.                              |
-Retaliate | Deal 1 damage to a Mage job.       |
+Retaliate | Deal 1 damage to a Mages.          |
   Special | MAGIC RESISTANT | The maximum numb |
           | er of stacks a spell can cast on A |
           | depts is 2.                        |
@@ -47,7 +47,8 @@ Retaliate | Deal 1 damage to a Mage job.       |
           |  your Mage recruitment             |
 Retaliate | Deal 1 damage to the player with t |
           | he lowest health                   |
-  Special |                                    |
+  Special | DEFECTORS | Overkill bonus: gain 2 |
+          |  Workers                           |
        HP | 3                                  |
           ╰------------------------------------╯
           ╭------------------------------------╮
@@ -57,7 +58,8 @@ Retaliate | Deal 1 damage to the player with t |
           | e least health. Repair a broken sh |
           | ield.                              |
 Retaliate | Gain Shield                        |
-  Special |                                    |
+  Special | BACKSTOCK | Overkill bonus: gain S |
+          | hield                              |
        HP | 3                                  |
           ╰------------------------------------╯
           ╭------------------------------------╮
@@ -65,8 +67,10 @@ Retaliate | Gain Shield                        |
     Level | normal                             |
    Attack | Move 1. Players collectively take  |
           | 4 damage to Workers                |
-Retaliate | Deal 1 damage to Worker            |
-  Special |                                    |
+Retaliate | Melee: Deal 1 damage to Worker (me |
+          | lee attacker only)                 |
+  Special | VULNERABLE TO RANGED | No retaliat |
+          | ion for attacks at Range.          |
        HP | 4                                  |
           ╰------------------------------------╯
           ╭------------------------------------╮
@@ -74,40 +78,22 @@ Retaliate | Deal 1 damage to Worker            |
     Level | normal                             |
    Attack | Players take 2 Ranged Damage to Wo |
           | rkers                              |
-Retaliate | Deal damage equal to half of the d |
-          | amage taken, rounded down.         |
-  Special |                                    |
+Retaliate | Deal 1 damage. Apply Weakened to a |
+          | ctive spell.                       |
+  Special | AIR RESISTANT | Reduce damage from |
+          |  Air attacks by 2.                 |
        HP | 5                                  |
-          ╰------------------------------------╯
-          ╭------------------------------------╮
-     Name | Small Ooze                         |
-    Level | normal                             |
-   Attack | Deal 1 damage                      |
-Retaliate | Deal 1 damage                      |
-  Special |                                    |
-       HP | 1                                  |
           ╰------------------------------------╯
           ╭------------------------------------╮
      Name | Marauders                          |
     Level | normal                             |
-   Attack | Steal 1 Resource at Melee range. D |
-          | eal damage equal to total Resource |
-          | s stolen.                          |
+   Attack | Steal 1 Resource at Melee. Deal da |
+          | mage equal to total Resources stol |
+          | en.                                |
 Retaliate | Steal 1 Resource.                  |
-  Special |                                    |
+  Special | LOOT DROP | Overkill bonus: gain 2 |
+          |  Resources of any type.            |
        HP | 3                                  |
-          ╰------------------------------------╯
-          ╭------------------------------------╮
-     Name | Decoys                             |
-    Level | normal                             |
-   Attack | Do the FEINT action on this divisi |
-          | on and another.                    |
-Retaliate | Apply Panic                        |
-  Special | FEINT When revealed, make all othe |
-          | r cards in this Division face-down |
-          | , then shuffle them and place them |
-          |  beneath this card.                |
-       HP | 1                                  |
           ╰------------------------------------╯
           ╭------------------------------------╮
      Name | Flamewisps                         |
@@ -116,10 +102,9 @@ Retaliate | Apply Panic                        |
           | deal 3 damage to them. Otherwise,  |
           | apply Burning to two adjacent play |
           | ers.                               |
-Retaliate | Apply Burning. If player already h |
-          | as Burning, continue to the left u |
-          | ntil applied.                      |
-  Special |                                    |
+Retaliate | Apply Burning, continuing.         |
+  Special | VULNERABLE TO WATER | No retaliati |
+          | on with Water damage               |
        HP | 4                                  |
           ╰------------------------------------╯
           ╭------------------------------------╮
@@ -130,9 +115,18 @@ Retaliate | Apply Burning. If player already h |
           | ce.                                |
 Retaliate | Deal Melee 1 damage to Travelers o |
           | r Druids.                          |
-  Special | TARGET WANDERERS. Only targets Dru |
-          | ids and Travelers.                 |
+  Special | TARGET WANDERERS | Only targets Dr |
+          | uids and Travelers.                |
        HP | 5                                  |
+          ╰------------------------------------╯
+          ╭------------------------------------╮
+     Name | Goblins                            |
+    Level | normal                             |
+   Attack | Deal 2 damage to Mages.            |
+Retaliate | Deal 1 damage                      |
+  Special | EASILY AMBUSHED | When revealed vi |
+          | a :scout:, they take 1 damage.     |
+       HP | 3                                  |
           ╰------------------------------------╯
           ╭------------------------------------╮
      Name | Ogres                              |
@@ -140,9 +134,8 @@ Retaliate | Deal Melee 1 damage to Travelers o |
    Attack | Move 1. Deal 3 Melee damage to a s |
           | ingle Worker job.                  |
 Retaliate | Deal 3 damage.                     |
-  Special | EASILY AMBUSHED | If attacking the |
-          | m when revealed and they are at fu |
-          | ll health, +1 damage per stack.    |
+  Special | EASILY AMBUSHED | When revealed vi |
+          | a :scout:, they take 1 damage.     |
        HP | 8                                  |
           ╰------------------------------------╯
           ╭------------------------------------╮
@@ -154,7 +147,8 @@ Retaliate | Deal 3 damage.                     |
 Retaliate | If player has any Fire, deal 2 Dam |
           | age and apply Burning. Otherwise,  |
           | deal 1 damage                      |
-  Special |                                    |
+  Special | VULNERABLE TO WATER | No retaliati |
+          | on with Water damage               |
        HP | 7                                  |
           ╰------------------------------------╯
           ╭------------------------------------╮
@@ -176,11 +170,10 @@ Retaliate | If this attack broke their shield, |
      Name | Dark Mage                          |
     Level | elite                              |
    Attack | Move the Dark Mage to the bottom o |
-          | f this division.                   |
-Retaliate | Player takes Weaken and Wither.    |
-  Special | FIGUREHEAD | When defeated, deal 1 |
-          | 0 damage to the entire army, split |
-          |  however you want.                 |
+          | f this division, heal all damage.  |
+Retaliate | Player loses all Buffs             |
+  Special | FIGUREHEAD | When defeated, you wi |
+          | n!                                 |
        HP | 10                                 |
           ╰------------------------------------╯
           ╭------------------------------------╮
@@ -198,28 +191,33 @@ Retaliate | Deal 2 damage.                     |
     Level | elite                              |
    Attack | Players collectively take damage e |
           | qual to the number of hitpoints be |
-          | low the maximum health.            |
+          | low the max HP.                    |
 Retaliate | If, after attack, Berserkers have  |
-          | 3 health or more, take 2 Damage.   |
-  Special |                                    |
+          | 3 health or more, they take 2 Dama |
+          | ge.                                |
+  Special | EASILY AMBUSHED | When revealed vi |
+          | a :scout:, they take 1 damage.     |
        HP | 10                                 |
           ╰------------------------------------╯
           ╭------------------------------------╮
      Name | Siege Machines                     |
     Level | elite                              |
-   Attack | Two players each take 2 damage     |
-Retaliate | Player takes a Panic token         |
-  Special |                                    |
+   Attack | Two players each take 2 damage, ig |
+          | noring Shield.                     |
+Retaliate | Deal 1 damage, ignoring Shield     |
+  Special | SHIELD BYPASS | When dealing damag |
+          | e, do not apply or break Shields   |
        HP | 8                                  |
           ╰------------------------------------╯
           ╭------------------------------------╮
      Name | Abomination                        |
     Level | elite                              |
-   Attack | Deal 3 Melee damage. Player with t |
-          | he fewest Resources takes a Fear t |
-          | oken                               |
-Retaliate | Player takes a Panic token         |
-  Special |                                    |
+   Attack | Deal 3 damage to the player with t |
+          | he fewest Resources                |
+Retaliate | Deal 1 damage to Pyros             |
+  Special | TERRIFYING AMBUSH | If this enemy  |
+          | is revealed via Enemy attack, it g |
+          | ains Strength                      |
        HP | 6                                  |
           ╰------------------------------------╯
           ╭------------------------------------╮
