@@ -1,27 +1,25 @@
 Name,Level,Attack,Retaliate,Special,HP
 Orcs,normal,Move 1. Deal 2 Melee damage,Deal 1 damage. Remove a Player Buff.,"EASILY AMBUSHED | When revealed via :scout:, they take 1 damage.",4
 Goblin Sappers,normal,"Move 1. Deal 2 Damage to Workers, ignoring Shield","Deal 2 damage, ignoring Shield.","PUT ‘EM TO WORK | Overkill bonus: :mine: :mine: ",3
-Skeleton Archers,normal,Deal 3 Ranged damage.,Any player at range takes 1 damage.,FIRE RESISTANT | Reduce damage from Fire attacks by 2.,5
-Adepts,normal,Player with the active spell that has the most Max Stacks takes 2 Damage.,Deal 1 damage to a Mages.,MAGIC RESISTANT | The maximum number of stacks a spell can cast on Adepts is 2.,3
-Commander,normal,Move 1. Deal Melee damage equal to your Mage recruitment,Deal 1 damage to the player with the lowest health,DEFECTORS | Overkill bonus: gain 2 Workers,3
-Forgefiends,normal,Add Shield to the division with the least health. Repair a broken shield.,Gain Shield,BACKSTOCK | Overkill bonus: gain Shield,3
+Skeleton Archers,normal,Players take 2 Ranged damage and one player takes Burning.,Any player at range takes 1 damage.,FIRE RESISTANT | Reduce damage from Fire attacks by 2.,5
+Adepts,normal,Player with the active spell that has the most Max Stacks takes 2 Damage to Mages,Deal 1 damage to Mages.,MAGIC RESISTANT | The maximum number of stacks a spell can cast on Adepts is 2.,3
+Commander,normal,Move 1. Deal Melee damage equal to Worker income (max: 3).,Deal 1 damage to the player with the lowest health,DEFECTORS | Overkill bonus: gain 2 Workers,3
+Forgefiends,normal,Add Broken Shield to the enemy with the least health and does not already have a Shield.,This enemy gains Broken Shield.,BACKSTOCK | Overkill bonus: gain Shield,3
 Wargs,normal,Move 1. Players collectively take 4 damage to Workers,Melee: Deal 1 damage to Worker (melee attacker only),VULNERABLE TO RANGED | No retaliation for attacks at Range.,4
-Falconers,normal,Players take 2 Ranged Damage to Workers,Deal 1 damage. Apply Weakened to active spell.,AIR RESISTANT | Reduce damage from Air attacks by 2.,5
-Marauders,normal,Steal 1 Resource at Melee. Deal damage equal to total Resources stolen.,Steal 1 Resource.,LOOT DROP | Overkill bonus: gain 2 Resources of any type.,3
+Falconers,normal,Players take 2 Ranged Damage to Workers,Deal 1 damage. Apply Hungry.,AIR RESISTANT | Reduce damage from Air attacks by 2.,5
+Marauders,normal,Steal 1 Resource at Melee. Deal damage equal to total Resources stolen.,Steal 1 Resource.,RECLAIM LOOT | Gain 1 stolen Resource for each HP of overkill.,3
 Flamewisps,normal,"Choose a player with Burning, and deal 3 damage to them. Otherwise, apply Burning to two adjacent players. ","Apply Burning, continuing.",VULNERABLE TO WATER | No retaliation with Water damage,4
-Bandits,normal,"Deal 1 Melee. Steal 1 Resource. Move 1. Deal 1 Melee. Steal 1 Resource. ","Deal Melee 1 damage to Travelers or Druids. ","TARGET WANDERERS | Only targets Druids and Travelers. ",5
-Goblins,normal,"Deal 2 damage to Mages. ",Deal 1 damage,"EASILY AMBUSHED | When revealed via :scout:, they take 1 damage.",3
-Ogres,elite,Move 1. Deal 3 Melee damage to a single Worker job.,Deal 3 damage.,"EASILY AMBUSHED | When revealed via :scout:, they take 1 damage.",8
+Bandits,normal,"Deal 1 Melee. Steal 1 Resource. Move 1. Deal 1 Melee. Steal 1 Resource. ",Steal 1 Resource,RECLAIM LOOT | Gain 1 stolen Resource for each HP of overkill.,5
+Goblins,normal,"At Melee, deal 2 damage to Mages and apply Burning.",Deal 1 damage,"EASILY AMBUSHED | When revealed via :scout:, they take 1 damage.",3
+Ogres,elite,Move 1. Deal 3 Melee damage to a single Worker job.,"Deal 2 damage, apply Hungry","EASILY AMBUSHED | When revealed via :scout:, they take 1 damage.",8
 Pyromancers,elite,Apply Burning to two adjacent players.  Deal 2 damage to each of those players.,"If player has any Fire, deal 2 Damage and apply Burning. Otherwise, deal 1 damage ",VULNERABLE TO WATER | No retaliation with Water damage,7
-Armored Hobgoblins,elite,"If they have no Shield, deal 1 Melee damage. Otherwise, deal 4 Melee Damage. (REVISE)","If this attack broke their shield, deal 1 Melee Damage. If this attack removed their shield, deal 2 damage. ","SHIELD-OBSESSED | After revealed, gain a shield token if they do not already have one.",10
-Dark Mage,elite,"Move the Dark Mage to the bottom of this division, heal all damage. ",Player loses all Buffs,"FIGUREHEAD | When defeated, you win! ",10
-Orc Rangers,elite,Deal 3 Ranged damage to the player farthest away,Deal 2 damage.,QUICK COUNTER | Retaliates when Revealed without an attack,6
-Berserkers,elite,"Players collectively take damage equal to the number of hitpoints below the max HP. ","If, after attack, Berserkers have 3 health or more, they take 2 Damage.","EASILY AMBUSHED | When revealed via :scout:, they take 1 damage.",10
+Armored Hobgoblins,elite,"If this enemy has a Shield, deal 4 Melee damage. Otherwise, deal 1 Melee damage and gain Broken Shield","Gain Broken Shield ","SHIELD-OBSESSED | After revealed, gain a shield token if they do not already have one.",10
+Dark Mage,elite,Dark Mage heals all damage. Move this card to the bottom of the division.,Player loses all Buffs,"FIGUREHEAD | When defeated, you win! ",10
+Orc Rangers,elite,Deal 3 Ranged damage to a single player and apply Burning.,Deal 2 damage.,QUICK COUNTER | Retaliates when Revealed without an attack,6
+Berserkers,elite,"If Berserkers have 3 health or more, they take 2 Damage. Then, players collectively take damage equal to the number of hitpoints Berserkers have below their max HP. ","If, after attack, Berserkers have 3 health or more, they take 2 Damage.","EASILY AMBUSHED | When revealed via :scout:, they take 1 damage.",10
 Siege Machines,elite,"Two players each take 2 damage, ignoring Shield.","Deal 1 damage, ignoring Shield","SHIELD BYPASS | When dealing damage, do not apply or break Shields",8
-Abomination,elite,Deal 3 damage to the player with the fewest Resources,Deal 1 damage to Pyros,"TERRIFYING AMBUSH | If this enemy is revealed via Enemy attack, it gains Strength",6
-Large Ooze,elite,Players collectively take 3 damage,Deal 1 Damage,"SPLIT | Upon death, create a new Division two Small Oozes",1
+Abomination,elite,Deal 3 Damage and apply Hungry to the player with the fewest Resources,Deal 1 damage to Pyros,"TERRIFYING AMBUSH | If this enemy is revealed via Enemy attack, it gains Strength",6
 Dust Sharks,elite,"Move 1. Deal 2 damage. Move 1. Deal 2 damage. ","Move 1. Deal 1 damage. ","CONSTANT MOVEMENT. Takes +1 damage from Rooted. ",6
-Witch,elite,Place a 4 Damage Over Time token on any player,"Place Panic on a Mage job, or deal 2 damage. ",,7
-Chaos Demon,elite,"Choose a random Stolen resource. Destroy all of those resources at Melee range. ",Steal 1 resource from the attacker,,6
+Witch,elite,Deal 3 Ranged damage to a single Mage job,Deal 2 damage to a single Mage job,VULNERABLE TO AIR | No retaliation to Air damage.,7
+Chaos Demon,elite,"Choose a random Stolen resource. Destroy all of those resources at Melee range. ",Steal 1 resource from the attacker,MASSIVE LOOT | Gain 2 stolen Resources for each HP of overkill,6
 Elemental,elite,"Randomly choose a Stolen Resource and deal damage 3 damage to the player with the most of that resource ",Steal 1 random resource from the attacker,,5
-Bannermen,elite,"Remove tokens. Place a normal, defeated army on top of this card at half health, rounded up.",Gain Shield,,5

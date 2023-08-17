@@ -1,3 +1,3 @@
 module Cyclomancy
-  VERSION = '4.0'
+  VERSION = '5.0'
 end

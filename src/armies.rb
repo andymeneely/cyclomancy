@@ -1,5 +1,6 @@
 require 'squib'
 require_relative 'embeds'
+require_relative 'version'
 
 data = Squib.csv file: 'data/armies.csv'
 
@@ -24,6 +25,7 @@ Squib::Deck.new(cards: data.nrows) do
 	text(layout: :special, str: data.special) { |e| embed_icons(e) }
 	text layout: :level, str: data.level
 	text layout: :hp, str: data.hp
+	text layout: :version, str: Cyclomancy::VERSION
 
 	cut_zone
 	safe_zone

@@ -16,7 +16,7 @@ def embed_icons(embed, keys)
 end
 
 def embed_icons_keys(embed, keys)
-  size = 32
+  size = 85
   keys.each do |k,f|
     embed.svg key: k, file: f, width: size, height: size, dy: -30
   end
@@ -29,6 +29,7 @@ Squib::Deck.new(cards: data.nrows) do
   svg file: 'spell.svg'
 
   text str: data.name, layout: :name
+  text str: data.name, layout: :clear_name
   text(str: data.reqs, layout: :reqs) { |e| embed_icons(e, letter_embeds) }
   text(str: data.desc, layout: :desc) { |e| embed_icons_keys(e, key_embeds) }
   text(str: data.desc2, layout: :desc2) { |e| embed_icons_keys(e, key_embeds) }
@@ -36,6 +37,8 @@ Squib::Deck.new(cards: data.nrows) do
   text str: data.stacks, layout: :stacks
 
   text str: data.type, layout: :type
+
+  text str: Cyclomancy::VERSION, layout: :version
 
   cut_zone
   build(:proofs) do

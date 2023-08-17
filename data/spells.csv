@@ -1,18 +1,19 @@
 Name,Reqs,Stacks,Desc,Desc2,Type
-Gust,AA,3,Deal 1 damage per stack. Move Army left or right per stack.,"Gain 1 Sailor per stack. Gain Potent per stack, continuing.",starter
-"Scry ",AF,4,"Apply Confusion to an Enemy per stack. Gain 1 shield for every stack after 1, continuing","If the Enemy has Confusion, deal 3 damage per stack. Otherwise, deal 2 damage per stack.",starter
-Vine Whip,AP,4,"Deal 1 damage per stack. If Enemy is Melee, deal 1 damage per stack. (This is two separate attacks.)","Gain 1 Druid per stack. Gain Potent per stack, continuing.",starter
-Parry,AS,3,"Deal 1 damage per stack. After retaliation, gain 1 Strength per stack, continuing. ","If you have a Buff, deal 4 damage and remove Riposte",starter
-Trebuchet,AS,5,Ranged: 2 Damage per stack,Gain 1 Captain per stack,starter
-Squall,AW,3,Deal 2 damage per stack,"Remove Burning. At 2 stacks, also remove Burning from a neighbor",starter
+Gust,AA,5,Deal 1 damage per stack. Move Army left or right per stack.,"Gain 1 Sailor per stack. Gain Potent per stack, continuing.",starter
+"Scry ",AF,4,"Apply Confusion to an Enemy per stack. Gain Shield for every stack after 1, continuing","If the Enemy has Confusion, deal 3 damage per stack. Otherwise, deal 2 damage per stack.",starter
+Vine Whip,AP,4,"Deal 2 damage per stack. If Enemy is Melee, add Rooted. ","Gain 1 Druid per stack. Gain Potent per stack after first, continuing.",starter
+Parry,AS,5,"Deal 1 damage per stack. After retaliation, gain 1 Strength per stack, continuing. ","If you have a Buff, deal 4 damage and remove Riposte",starter
+Trebuchet,AS,6,Ranged: 2 Damage per stack,Gain 1 Captain per stack,starter
+Squall,AW,5,Deal 2 damage per stack,"Remove Burning. At 2 stacks, also remove Burning from a neighbor",starter
 Flame Gambit,F,5,"For each stack, guess a number 1-6. Roll a D6. If one of your guesses is correct, deal damage equal to the number of stacks.","For each stack, guess a number 1-6. Roll a D6. If one of your guesses is correct, gain 1 Mage for every 2 stacks.",starter
 Fireball,FF,5,Melee: Deal 4 Damage per stack. Caster takes Burning.,Ranged: Deal 3 damage per stack.,starter
-Water Cannon,FWW,3,Deal 3 damage per stack,Deal 2 Damage to 2 different Armies per stack.,starter
+Water Cannon,FWW,4,Deal 3 damage per stack,Deal 2 Damage to 2 different Armies per stack.,starter
 Feast,P,4,Gain 1 Worker per stack,Gain 1 Mage per stack,starter
-Rapid Growth,PP,3,Deal 1 damage per stack,Sow 1 seed per stack,starter
-Plentiful Roots,PPS,3,"Deal 1 damage per stack. If the army is Rooted, instead deal 3 damage per stack.",Gain 1 Worker. Apply Rooted.,starter
+Rapid Growth,PP,5,Deal 1 damage per stack,Sow 1 seed per stack (max 3),starter
+Plentiful Roots,PPS,5,"Deal 1 damage per stack. If the army is Rooted, instead deal 3 damage per stack.",Gain 1 Worker. Apply Rooted.,starter
 Brain Food,PW,3,:research: :research:,Gain 1 Protege per stack,starter
 Shield Bash,SP,2,"If you have a Shield token, deal 3 Melee damage per stack, and break your shield. ","Any player gains a Shield token, per stack.",starter
+Clay Hut,SW,3,"Remove one debuff per stack, continuing to next player.",Gain 1 Worker,starter
 Cleanse,W,3,Deal 1 Melee damage,"Remove a Debuff per stack. Also, remove Burning from any player per stack.",starter
 Prepare,A,3,Remove a Debuff from any player per stack.,"If 1 Stack, gain Shield. If 2 Stacks, gain Strong. If 3 Stacks, gain both",super
 Heist,A,6,"Take 2 Stolen resources per stack. ","Every two stacks, gain 1 resource of any kind. ",super
@@ -24,5 +25,4 @@ Magma Storm,AFS,2,Deal 5 damage per stack,:dig: :dig: per stack.,super
 Eruption,FS,4,3 Ranged Damage per stack.,":dig: :dig: :dig: per stack. Apply Potent per stack, continuing",super
 Shield of Elements,FWS,3,"Gain Shield, continuing to the next player without a shield,","During Attack, if this has at least 1 stack, you may clear all resources on this spell to prevent the next debuff applied to you. ",super
 Rock Shield,PSS,3,"Gain Shield, continuing to next player on more stacks.","Melee: If you have a Shield token, deal 3 damage per stack, and break the Shield.",super
-Clay Hut,SW,3,"Remove one debuff per stack, continuing to next player.",Gain 1 Worker,super
 Flood,WWW,3,"Deal 2 damage to a different Enemy per stack, and they do not retaliate. ","If Enemy applies Burning, deal 3 damage per stack.  Gain 1 Farmer per stack.",super

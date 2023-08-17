@@ -17,6 +17,12 @@ name:
   align: center
   ellipsize: autoscale
 
+clear_name:
+  extends: name
+  y: 200
+  font: Arial Bold 10
+
+
 reqs:
   x: 90
   y: 500
@@ -28,12 +34,14 @@ reqs:
 desc:
   extends: body_font
   x: 90
-  y: 220
+  y: 245
   width: deck - 180
-  height: 250
+  height: 200
   align: center
   valign: middle
   # hint: red
+  ellipsize: autoscale
+  version:
 
 desc2:
   extends: desc

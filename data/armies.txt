@@ -21,7 +21,8 @@ Retaliate | Deal 2 damage, ignoring Shield.    |
           ╭------------------------------------╮
      Name | Skeleton Archers                   |
     Level | normal                             |
-   Attack | Deal 3 Ranged damage.              |
+   Attack | Players take 2 Ranged damage and o |
+          | ne player takes Burning.           |
 Retaliate | Any player at range takes 1 damage |
           | .                                  |
   Special | FIRE RESISTANT | Reduce damage fro |
@@ -33,8 +34,8 @@ Retaliate | Any player at range takes 1 damage |
     Level | normal                             |
    Attack | Player with the active spell that  |
           | has the most Max Stacks takes 2 Da |
-          | mage.                              |
-Retaliate | Deal 1 damage to a Mages.          |
+          | mage to Mages                      |
+Retaliate | Deal 1 damage to Mages.            |
   Special | MAGIC RESISTANT | The maximum numb |
           | er of stacks a spell can cast on A |
           | depts is 2.                        |
@@ -44,7 +45,7 @@ Retaliate | Deal 1 damage to a Mages.          |
      Name | Commander                          |
     Level | normal                             |
    Attack | Move 1. Deal Melee damage equal to |
-          |  your Mage recruitment             |
+          |  Worker income (max: 3).           |
 Retaliate | Deal 1 damage to the player with t |
           | he lowest health                   |
   Special | DEFECTORS | Overkill bonus: gain 2 |
@@ -54,10 +55,10 @@ Retaliate | Deal 1 damage to the player with t |
           ╭------------------------------------╮
      Name | Forgefiends                        |
     Level | normal                             |
-   Attack | Add Shield to the division with th |
-          | e least health. Repair a broken sh |
-          | ield.                              |
-Retaliate | Gain Shield                        |
+   Attack | Add Broken Shield to the enemy wit |
+          | h the least health and does not al |
+          | ready have a Shield.               |
+Retaliate | This enemy gains Broken Shield.    |
   Special | BACKSTOCK | Overkill bonus: gain S |
           | hield                              |
        HP | 3                                  |
@@ -78,8 +79,7 @@ Retaliate | Melee: Deal 1 damage to Worker (me |
     Level | normal                             |
    Attack | Players take 2 Ranged Damage to Wo |
           | rkers                              |
-Retaliate | Deal 1 damage. Apply Weakened to a |
-          | ctive spell.                       |
+Retaliate | Deal 1 damage. Apply Hungry.       |
   Special | AIR RESISTANT | Reduce damage from |
           |  Air attacks by 2.                 |
        HP | 5                                  |
@@ -91,8 +91,8 @@ Retaliate | Deal 1 damage. Apply Weakened to a |
           | mage equal to total Resources stol |
           | en.                                |
 Retaliate | Steal 1 Resource.                  |
-  Special | LOOT DROP | Overkill bonus: gain 2 |
-          |  Resources of any type.            |
+  Special | RECLAIM LOOT | Gain 1 stolen Resou |
+          | rce for each HP of overkill.       |
        HP | 3                                  |
           ╰------------------------------------╯
           ╭------------------------------------╮
@@ -113,16 +113,16 @@ Retaliate | Apply Burning, continuing.         |
    Attack | Deal 1 Melee. Steal 1 Resource. Mo |
           | ve 1. Deal 1 Melee. Steal 1 Resour |
           | ce.                                |
-Retaliate | Deal Melee 1 damage to Travelers o |
-          | r Druids.                          |
-  Special | TARGET WANDERERS | Only targets Dr |
-          | uids and Travelers.                |
+Retaliate | Steal 1 Resource                   |
+  Special | RECLAIM LOOT | Gain 1 stolen Resou |
+          | rce for each HP of overkill.       |
        HP | 5                                  |
           ╰------------------------------------╯
           ╭------------------------------------╮
      Name | Goblins                            |
     Level | normal                             |
-   Attack | Deal 2 damage to Mages.            |
+   Attack | At Melee, deal 2 damage to Mages a |
+          | nd apply Burning.                  |
 Retaliate | Deal 1 damage                      |
   Special | EASILY AMBUSHED | When revealed vi |
           | a :scout:, they take 1 damage.     |
@@ -133,7 +133,7 @@ Retaliate | Deal 1 damage                      |
     Level | elite                              |
    Attack | Move 1. Deal 3 Melee damage to a s |
           | ingle Worker job.                  |
-Retaliate | Deal 3 damage.                     |
+Retaliate | Deal 2 damage, apply Hungry        |
   Special | EASILY AMBUSHED | When revealed vi |
           | a :scout:, they take 1 damage.     |
        HP | 8                                  |
@@ -154,13 +154,11 @@ Retaliate | If player has any Fire, deal 2 Dam |
           ╭------------------------------------╮
      Name | Armored Hobgoblins                 |
     Level | elite                              |
-   Attack | If they have no Shield, deal 1 Mel |
-          | ee damage. Otherwise, deal 4 Melee |
-          |  Damage. (REVISE)                  |
-Retaliate | If this attack broke their shield, |
-          |  deal 1 Melee Damage. If this atta |
-          | ck removed their shield, deal 2 da |
-          | mage.                              |
+   Attack | If this enemy has a Shield, deal 4 |
+          |  Melee damage. Otherwise, deal 1 M |
+          | elee damage and gain Broken Shield |
+          |                                    |
+Retaliate | Gain Broken Shield                 |
   Special | SHIELD-OBSESSED | After revealed,  |
           | gain a shield token if they do not |
           |  already have one.                 |
@@ -169,8 +167,9 @@ Retaliate | If this attack broke their shield, |
           ╭------------------------------------╮
      Name | Dark Mage                          |
     Level | elite                              |
-   Attack | Move the Dark Mage to the bottom o |
-          | f this division, heal all damage.  |
+   Attack | Dark Mage heals all damage. Move t |
+          | his card to the bottom of the divi |
+          | sion.                              |
 Retaliate | Player loses all Buffs             |
   Special | FIGUREHEAD | When defeated, you wi |
           | n!                                 |
@@ -179,8 +178,8 @@ Retaliate | Player loses all Buffs             |
           ╭------------------------------------╮
      Name | Orc Rangers                        |
     Level | elite                              |
-   Attack | Deal 3 Ranged damage to the player |
-          |  farthest away                     |
+   Attack | Deal 3 Ranged damage to a single p |
+          | layer and apply Burning.           |
 Retaliate | Deal 2 damage.                     |
   Special | QUICK COUNTER | Retaliates when Re |
           | vealed without an attack           |
@@ -189,9 +188,11 @@ Retaliate | Deal 2 damage.                     |
           ╭------------------------------------╮
      Name | Berserkers                         |
     Level | elite                              |
-   Attack | Players collectively take damage e |
-          | qual to the number of hitpoints be |
-          | low the max HP.                    |
+   Attack | If Berserkers have 3 health or mor |
+          | e, they take 2 Damage. Then, playe |
+          | rs collectively take damage equal  |
+          | to the number of hitpoints Berserk |
+          | ers have below their max HP.       |
 Retaliate | If, after attack, Berserkers have  |
           | 3 health or more, they take 2 Dama |
           | ge.                                |
@@ -212,23 +213,14 @@ Retaliate | Deal 1 damage, ignoring Shield     |
           ╭------------------------------------╮
      Name | Abomination                        |
     Level | elite                              |
-   Attack | Deal 3 damage to the player with t |
-          | he fewest Resources                |
+   Attack | Deal 3 Damage and apply Hungry to  |
+          | the player with the fewest Resourc |
+          | es                                 |
 Retaliate | Deal 1 damage to Pyros             |
   Special | TERRIFYING AMBUSH | If this enemy  |
           | is revealed via Enemy attack, it g |
           | ains Strength                      |
        HP | 6                                  |
-          ╰------------------------------------╯
-          ╭------------------------------------╮
-     Name | Large Ooze                         |
-    Level | elite                              |
-   Attack | Players collectively take 3 damage |
-          |                                    |
-Retaliate | Deal 1 Damage                      |
-  Special | SPLIT | Upon death, create a new D |
-          | ivision two Small Oozes            |
-       HP | 1                                  |
           ╰------------------------------------╯
           ╭------------------------------------╮
      Name | Dust Sharks                        |
@@ -243,11 +235,12 @@ Retaliate | Move 1. Deal 1 damage.             |
           ╭------------------------------------╮
      Name | Witch                              |
     Level | elite                              |
-   Attack | Place a 4 Damage Over Time token o |
-          | n any player                       |
-Retaliate | Place Panic on a Mage job, or deal |
-          |  2 damage.                         |
-  Special |                                    |
+   Attack | Deal 3 Ranged damage to a single M |
+          | age job                            |
+Retaliate | Deal 2 damage to a single Mage job |
+          |                                    |
+  Special | VULNERABLE TO AIR | No retaliation |
+          |  to Air damage.                    |
        HP | 7                                  |
           ╰------------------------------------╯
           ╭------------------------------------╮
@@ -258,7 +251,8 @@ Retaliate | Place Panic on a Mage job, or deal |
           | elee range.                        |
 Retaliate | Steal 1 resource from the attacker |
           |                                    |
-  Special |                                    |
+  Special | MASSIVE LOOT | Gain 2 stolen Resou |
+          | rces for each HP of overkill       |
        HP | 6                                  |
           ╰------------------------------------╯
           ╭------------------------------------╮
@@ -270,16 +264,6 @@ Retaliate | Steal 1 resource from the attacker |
           | e                                  |
 Retaliate | Steal 1 random resource from the a |
           | ttacker                            |
-  Special |                                    |
-       HP | 5                                  |
-          ╰------------------------------------╯
-          ╭------------------------------------╮
-     Name | Bannermen                          |
-    Level | elite                              |
-   Attack | Remove tokens. Place a normal, def |
-          | eated army on top of this card at  |
-          | half health, rounded up.           |
-Retaliate | Gain Shield                        |
   Special |                                    |
        HP | 5                                  |
           ╰------------------------------------╯

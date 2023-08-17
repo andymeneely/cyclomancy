@@ -40,4 +40,7 @@ hp:
   align: center
   color: white
 
-
+version:
+  font: Arial 6
+  x: 725
+  y: 45
