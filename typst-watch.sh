@@ -1,0 +1,1 @@
+typst watch docs/RULES.typ _output/RULES.pdf
