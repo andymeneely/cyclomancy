@@ -2,8 +2,10 @@ name:
   font: Splash 24
   align: center
   x: 75
-  y: 120
+  y: 135
   width: 675
+  color: '#800000a5'
+  fill_color: red
   ellipsize: autoscale
 
 body_font:
@@ -13,32 +15,56 @@ body_font:
   width:  675
   height: 200
 
-
 level:
-  extends: body_font
   x: 600
+  y: 75
+  width: 60
+  height: 60
 
 attack:
   extends: body_font
-  y: 600
+  x: 75
+  y: 435
+  width: 675
+  height: 175
+  # hint: red
+  ellipsize: autoscale
+  align: center
+  valign: middle
 
-retaliate:
-  extends: body_font
-  y: 350
+overkill:
+  x: 625
+  y: 935
+  width: 110
+  height: 110
 
 special:
   extends: body_font
-  align: center
-  y: 900
+  align: left
+  valign: middle
+  x: += 10
+  y: 750
+  width: 550
+  height: 165
 
-hp:
-  font: Archivo Black 16
+  # hint: red
+
+level_back:
   x: 75
   y: 75
-  width: 100
-  height: 100
+  width: 675
+  height: 675
+
+hp:
+  font: Archivo Black 12
+  x: 75
+  y: 75
+  width: 90
+  height: 90
   align: center
   color: white
+  ellipsize: autoscale
+
 
 version:
   font: Arial 6

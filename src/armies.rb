@@ -1,6 +1,9 @@
 require 'squib'
 require_relative 'embeds'
 require_relative 'version'
+require_relative 'refinements'
+
+using Squib::ArrayExtras
 
 data = Squib.csv file: 'data/armies.csv'
 
@@ -17,20 +20,35 @@ Squib::Deck.new(cards: data.nrows) do
 	background color: :white
 	use_layout file: 'layouts/armies.yml'
 
+	# png file: 'armies/skeleton archers.png', range: 2
+
 	svg file: 'army.svg'
 
 	text layout: :name, str: data.name
 	text layout: :attack, str: data.attack
-	text layout: :retaliate, str: data.retaliate
 	text(layout: :special, str: data.special) { |e| embed_icons(e) }
-	text layout: :level, str: data.level
 	text layout: :hp, str: data.hp
 	text layout: :version, str: Cyclomancy::VERSION
 
-	cut_zone
-	safe_zone
+	svg layout: :level, file: data.level.dot_svg
+
+	svg file: data.overkill.dot_svg, layout: :overkill
+
+	# cut_zone
+	# safe_zone
 
 	save_png prefix: 'army_'
 	save_sheet prefix: '_sheet_army_', columns: 4, rows: 3
 	save_pdf file: 'army.pdf', trim: 37.5
+end
+
+Squib::Deck.new(cards: data.nrows) do
+	background color: :white
+	use_layout file: 'layouts/armies.yml'
+
+	svg layout: :level_back, file: data.level.dot_svg
+
+	save_png prefix: 'army_back_'
+	save_sheet prefix: '_sheet_army_back_', columns: 4, rows: 3
+	save_pdf file: 'army_back.pdf', trim: 37.5
 end

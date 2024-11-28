@@ -1,269 +1,235 @@
-          ╭------------------------------------╮
-     Name | Orcs                               |
-    Level | normal                             |
-   Attack | Move 1. Deal 2 Melee damage        |
-Retaliate | Deal 1 damage. Remove a Player Buf |
-          | f.                                 |
-  Special | EASILY AMBUSHED | When revealed vi |
-          | a :scout:, they take 1 damage.     |
-       HP | 4                                  |
-          ╰------------------------------------╯
-          ╭------------------------------------╮
-     Name | Goblin Sappers                     |
-    Level | normal                             |
-   Attack | Move 1. Deal 2 Damage to Workers,  |
-          | ignoring Shield                    |
-Retaliate | Deal 2 damage, ignoring Shield.    |
-  Special | PUT ‘EM TO WORK | Overkill bonus:  |
-          | :mine: :mine:                      |
-       HP | 3                                  |
-          ╰------------------------------------╯
-          ╭------------------------------------╮
-     Name | Skeleton Archers                   |
-    Level | normal                             |
-   Attack | Players take 2 Ranged damage and o |
-          | ne player takes Burning.           |
-Retaliate | Any player at range takes 1 damage |
-          | .                                  |
-  Special | FIRE RESISTANT | Reduce damage fro |
-          | m Fire attacks by 2.               |
-       HP | 5                                  |
-          ╰------------------------------------╯
-          ╭------------------------------------╮
-     Name | Adepts                             |
-    Level | normal                             |
-   Attack | Player with the active spell that  |
-          | has the most Max Stacks takes 2 Da |
-          | mage to Mages                      |
-Retaliate | Deal 1 damage to Mages.            |
-  Special | MAGIC RESISTANT | The maximum numb |
-          | er of stacks a spell can cast on A |
-          | depts is 2.                        |
-       HP | 3                                  |
-          ╰------------------------------------╯
-          ╭------------------------------------╮
-     Name | Commander                          |
-    Level | normal                             |
-   Attack | Move 1. Deal Melee damage equal to |
-          |  Worker income (max: 3).           |
-Retaliate | Deal 1 damage to the player with t |
-          | he lowest health                   |
-  Special | DEFECTORS | Overkill bonus: gain 2 |
-          |  Workers                           |
-       HP | 3                                  |
-          ╰------------------------------------╯
-          ╭------------------------------------╮
-     Name | Forgefiends                        |
-    Level | normal                             |
-   Attack | Add Broken Shield to the enemy wit |
-          | h the least health and does not al |
-          | ready have a Shield.               |
-Retaliate | This enemy gains Broken Shield.    |
-  Special | BACKSTOCK | Overkill bonus: gain S |
-          | hield                              |
-       HP | 3                                  |
-          ╰------------------------------------╯
-          ╭------------------------------------╮
-     Name | Wargs                              |
-    Level | normal                             |
-   Attack | Move 1. Players collectively take  |
-          | 4 damage to Workers                |
-Retaliate | Melee: Deal 1 damage to Worker (me |
-          | lee attacker only)                 |
-  Special | VULNERABLE TO RANGED | No retaliat |
-          | ion for attacks at Range.          |
-       HP | 4                                  |
-          ╰------------------------------------╯
-          ╭------------------------------------╮
-     Name | Falconers                          |
-    Level | normal                             |
-   Attack | Players take 2 Ranged Damage to Wo |
-          | rkers                              |
-Retaliate | Deal 1 damage. Apply Hungry.       |
-  Special | AIR RESISTANT | Reduce damage from |
-          |  Air attacks by 2.                 |
-       HP | 5                                  |
-          ╰------------------------------------╯
-          ╭------------------------------------╮
-     Name | Marauders                          |
-    Level | normal                             |
-   Attack | Steal 1 Resource at Melee. Deal da |
-          | mage equal to total Resources stol |
-          | en.                                |
-Retaliate | Steal 1 Resource.                  |
-  Special | RECLAIM LOOT | Gain 1 stolen Resou |
-          | rce for each HP of overkill.       |
-       HP | 3                                  |
-          ╰------------------------------------╯
-          ╭------------------------------------╮
-     Name | Flamewisps                         |
-    Level | normal                             |
-   Attack | Choose a player with Burning, and  |
-          | deal 3 damage to them. Otherwise,  |
-          | apply Burning to two adjacent play |
-          | ers.                               |
-Retaliate | Apply Burning, continuing.         |
-  Special | VULNERABLE TO WATER | No retaliati |
-          | on with Water damage               |
-       HP | 4                                  |
-          ╰------------------------------------╯
-          ╭------------------------------------╮
-     Name | Bandits                            |
-    Level | normal                             |
-   Attack | Deal 1 Melee. Steal 1 Resource. Mo |
-          | ve 1. Deal 1 Melee. Steal 1 Resour |
-          | ce.                                |
-Retaliate | Steal 1 Resource                   |
-  Special | RECLAIM LOOT | Gain 1 stolen Resou |
-          | rce for each HP of overkill.       |
-       HP | 5                                  |
-          ╰------------------------------------╯
-          ╭------------------------------------╮
-     Name | Goblins                            |
-    Level | normal                             |
-   Attack | At Melee, deal 2 damage to Mages a |
-          | nd apply Burning.                  |
-Retaliate | Deal 1 damage                      |
-  Special | EASILY AMBUSHED | When revealed vi |
-          | a :scout:, they take 1 damage.     |
-       HP | 3                                  |
-          ╰------------------------------------╯
-          ╭------------------------------------╮
-     Name | Ogres                              |
-    Level | elite                              |
-   Attack | Move 1. Deal 3 Melee damage to a s |
-          | ingle Worker job.                  |
-Retaliate | Deal 2 damage, apply Hungry        |
-  Special | EASILY AMBUSHED | When revealed vi |
-          | a :scout:, they take 1 damage.     |
-       HP | 8                                  |
-          ╰------------------------------------╯
-          ╭------------------------------------╮
-     Name | Pyromancers                        |
-    Level | elite                              |
-   Attack | Apply Burning to two adjacent play |
-          | ers.  Deal 2 damage to each of tho |
-          | se players.                        |
-Retaliate | If player has any Fire, deal 2 Dam |
-          | age and apply Burning. Otherwise,  |
-          | deal 1 damage                      |
-  Special | VULNERABLE TO WATER | No retaliati |
-          | on with Water damage               |
-       HP | 7                                  |
-          ╰------------------------------------╯
-          ╭------------------------------------╮
-     Name | Armored Hobgoblins                 |
-    Level | elite                              |
-   Attack | If this enemy has a Shield, deal 4 |
-          |  Melee damage. Otherwise, deal 1 M |
-          | elee damage and gain Broken Shield |
-          |                                    |
-Retaliate | Gain Broken Shield                 |
-  Special | SHIELD-OBSESSED | After revealed,  |
-          | gain a shield token if they do not |
-          |  already have one.                 |
-       HP | 10                                 |
-          ╰------------------------------------╯
-          ╭------------------------------------╮
-     Name | Dark Mage                          |
-    Level | elite                              |
-   Attack | Dark Mage heals all damage. Move t |
-          | his card to the bottom of the divi |
-          | sion.                              |
-Retaliate | Player loses all Buffs             |
-  Special | FIGUREHEAD | When defeated, you wi |
-          | n!                                 |
-       HP | 10                                 |
-          ╰------------------------------------╯
-          ╭------------------------------------╮
-     Name | Orc Rangers                        |
-    Level | elite                              |
-   Attack | Deal 3 Ranged damage to a single p |
-          | layer and apply Burning.           |
-Retaliate | Deal 2 damage.                     |
-  Special | QUICK COUNTER | Retaliates when Re |
-          | vealed without an attack           |
-       HP | 6                                  |
-          ╰------------------------------------╯
-          ╭------------------------------------╮
-     Name | Berserkers                         |
-    Level | elite                              |
-   Attack | If Berserkers have 3 health or mor |
-          | e, they take 2 Damage. Then, playe |
-          | rs collectively take damage equal  |
-          | to the number of hitpoints Berserk |
-          | ers have below their max HP.       |
-Retaliate | If, after attack, Berserkers have  |
-          | 3 health or more, they take 2 Dama |
-          | ge.                                |
-  Special | EASILY AMBUSHED | When revealed vi |
-          | a :scout:, they take 1 damage.     |
-       HP | 10                                 |
-          ╰------------------------------------╯
-          ╭------------------------------------╮
-     Name | Siege Machines                     |
-    Level | elite                              |
-   Attack | Two players each take 2 damage, ig |
-          | noring Shield.                     |
-Retaliate | Deal 1 damage, ignoring Shield     |
-  Special | SHIELD BYPASS | When dealing damag |
-          | e, do not apply or break Shields   |
-       HP | 8                                  |
-          ╰------------------------------------╯
-          ╭------------------------------------╮
-     Name | Abomination                        |
-    Level | elite                              |
-   Attack | Deal 3 Damage and apply Hungry to  |
-          | the player with the fewest Resourc |
-          | es                                 |
-Retaliate | Deal 1 damage to Pyros             |
-  Special | TERRIFYING AMBUSH | If this enemy  |
-          | is revealed via Enemy attack, it g |
-          | ains Strength                      |
-       HP | 6                                  |
-          ╰------------------------------------╯
-          ╭------------------------------------╮
-     Name | Dust Sharks                        |
-    Level | elite                              |
-   Attack | Move 1. Deal 2 damage. Move 1. Dea |
-          | l 2 damage.                        |
-Retaliate | Move 1. Deal 1 damage.             |
-  Special | CONSTANT MOVEMENT. Takes +1 damage |
-          |  from Rooted.                      |
-       HP | 6                                  |
-          ╰------------------------------------╯
-          ╭------------------------------------╮
-     Name | Witch                              |
-    Level | elite                              |
-   Attack | Deal 3 Ranged damage to a single M |
-          | age job                            |
-Retaliate | Deal 2 damage to a single Mage job |
-          |                                    |
-  Special | VULNERABLE TO AIR | No retaliation |
-          |  to Air damage.                    |
-       HP | 7                                  |
-          ╰------------------------------------╯
-          ╭------------------------------------╮
-     Name | Chaos Demon                        |
-    Level | elite                              |
-   Attack | Choose a random Stolen resource. D |
-          | estroy all of those resources at M |
-          | elee range.                        |
-Retaliate | Steal 1 resource from the attacker |
-          |                                    |
-  Special | MASSIVE LOOT | Gain 2 stolen Resou |
-          | rces for each HP of overkill       |
-       HP | 6                                  |
-          ╰------------------------------------╯
-          ╭------------------------------------╮
-     Name | Elemental                          |
-    Level | elite                              |
-   Attack | Randomly choose a Stolen Resource  |
-          | and deal damage 3 damage to the pl |
-          | ayer with the most of that resourc |
-          | e                                  |
-Retaliate | Steal 1 random resource from the a |
-          | ttacker                            |
-  Special |                                    |
-       HP | 5                                  |
-          ╰------------------------------------╯
+         ╭------------------------------------╮
+    Name | Orcs                               |
+   Level | normal                             |
+  Attack | Move 1. Deal 2 Melee damage        |
+Overkill | scout                              |
+ Special | EASILY AMBUSHED | When revealed vi |
+         | a :scout:, they take 1 damage.     |
+      HP | 4                                  |
+         ╰------------------------------------╯
+         ╭------------------------------------╮
+    Name | Goblin Sappers                     |
+   Level | normal                             |
+  Attack | Move 1. Deal 2 Damage to Workers,  |
+         | ignoring Shield                    |
+Overkill | mine per overkill                  |
+ Special |                                    |
+      HP | 3                                  |
+         ╰------------------------------------╯
+         ╭------------------------------------╮
+    Name | Skeleton Archers                   |
+   Level | normal                             |
+  Attack | Players at Range take 2 damage and |
+         |  one player takes Burning.         |
+Overkill | air                                |
+ Special |                                    |
+      HP | 5                                  |
+         ╰------------------------------------╯
+         ╭------------------------------------╮
+    Name | Adepts                             |
+   Level | normal                             |
+  Attack | Player with the active spell that  |
+         | has the most Max Stacks takes 2 Da |
+         | mage to Mages                      |
+Overkill | research                           |
+ Special |                                    |
+      HP | 3                                  |
+         ╰------------------------------------╯
+         ╭------------------------------------╮
+    Name | Commander                          |
+   Level | normal                             |
+  Attack | Move 1. Deal Melee damage equal to |
+         |  Worker income (max: 3).           |
+Overkill | worker per overkill                |
+ Special |                                    |
+      HP | 4                                  |
+         ╰------------------------------------╯
+         ╭------------------------------------╮
+    Name | Forgefiends                        |
+   Level | normal                             |
+  Attack | Add Broken Shield to the enemy wit |
+         | h the least health and does not al |
+         | ready have a Shield.               |
+Overkill | shield                             |
+ Special |                                    |
+      HP | 3                                  |
+         ╰------------------------------------╯
+         ╭------------------------------------╮
+    Name | Wargs                              |
+   Level | normal                             |
+  Attack | Move 1. Players collectively take  |
+         | 4 damage to Workers                |
+Overkill | water                              |
+ Special | VULNERABLE TO RANGED | +1 damage p |
+         | er stack to spells dealing Ranged  |
+         | damage                             |
+      HP | 4                                  |
+         ╰------------------------------------╯
+         ╭------------------------------------╮
+    Name | Falconers                          |
+   Level | normal                             |
+  Attack | Players collectively take 2 Ranged |
+         |  Damage to Workers                 |
+Overkill | air                                |
+ Special |                                    |
+      HP | 5                                  |
+         ╰------------------------------------╯
+         ╭------------------------------------╮
+    Name | Marauders                          |
+   Level | normal                             |
+  Attack | Steal 1 Resource at Melee. Deal da |
+         | mage equal to total Resources stol |
+         | en.                                |
+Overkill | loot per overkill                  |
+ Special |                                    |
+      HP | 3                                  |
+         ╰------------------------------------╯
+         ╭------------------------------------╮
+    Name | Flamewisps                         |
+   Level | normal                             |
+  Attack | Choose a player with Burning, and  |
+         | deal 3 damage to them. Otherwise,  |
+         | apply Burning to two adjacent play |
+         | ers.                               |
+Overkill | fire                               |
+ Special |                                    |
+      HP | 4                                  |
+         ╰------------------------------------╯
+         ╭------------------------------------╮
+    Name | Bandits                            |
+   Level | normal                             |
+  Attack | Deal 1 Melee. Steal 1 Resource. Mo |
+         | ve 1. Deal 1 Melee. Steal 1 Resour |
+         | ce.                                |
+Overkill | loot per overkill                  |
+ Special | RECLAIM LOOT | Gain 1 stolen Resou |
+         | rce for each HP of overkill.       |
+      HP | 5                                  |
+         ╰------------------------------------╯
+         ╭------------------------------------╮
+    Name | Goblin Arsonists                   |
+   Level | normal                             |
+  Attack | Deal 2 Melee damage to Mages and a |
+         | pply Burning.                      |
+Overkill | fire                               |
+ Special |                                    |
+      HP | 3                                  |
+         ╰------------------------------------╯
+         ╭------------------------------------╮
+    Name | Ogres                              |
+   Level | elite                              |
+  Attack | Move 1. Deal 2 Melee damage to a s |
+         | ingle Worker job.                  |
+Overkill | strength                           |
+ Special | EASILY AMBUSHED | When revealed vi |
+         | a :scout:, they take 1 damage.     |
+      HP | 8                                  |
+         ╰------------------------------------╯
+         ╭------------------------------------╮
+    Name | Pyromancers                        |
+   Level | elite                              |
+  Attack | Apply Burning to two adjacent play |
+         | ers.  Deal 2 damage to each of tho |
+         | se players.                        |
+Overkill | fire per overkill                  |
+ Special | VULNERABLE TO WATER | No retaliati |
+         | on with Water damage               |
+      HP | 7                                  |
+         ╰------------------------------------╯
+         ╭------------------------------------╮
+    Name | Armored Hobgoblins                 |
+   Level | elite                              |
+  Attack | If this enemy has a shield, deal 4 |
+         |  Melee damage. Otherwise, deal 1 M |
+         | elee damage and gain Broken Shield |
+         |                                    |
+Overkill | shield                             |
+ Special | SHIELD-OBSESSED | After revealed,  |
+         | gain a broken shield token if they |
+         |  do not already have one.          |
+      HP | 6                                  |
+         ╰------------------------------------╯
+         ╭------------------------------------╮
+    Name | Orc Rangers                        |
+   Level | elite                              |
+  Attack | Deal 3 Ranged damage to a single p |
+         | layer and apply Burning.           |
+Overkill | air per overkill                   |
+ Special |                                    |
+      HP | 6                                  |
+         ╰------------------------------------╯
+         ╭------------------------------------╮
+    Name | Berserkers                         |
+   Level | elite                              |
+  Attack | If Berserkers have 3 health or mor |
+         | e, they take 2 Damage. Players col |
+         | lectively take damage equal to the |
+         |  number of hitpoints Berserkers ha |
+         | ve below their max HP.             |
+Overkill | plant per overkill                 |
+ Special | EASILY AMBUSHED | When revealed vi |
+         | a :scout:, they take 1 damage.     |
+      HP | 10                                 |
+         ╰------------------------------------╯
+         ╭------------------------------------╮
+    Name | Siege Machines                     |
+   Level | elite                              |
+  Attack | Two players each take 2 damage, ig |
+         | noring Shield.                     |
+Overkill | stone per overkill                 |
+ Special | SHIELD BYPASS | When dealing damag |
+         | e, do not apply or break Shields   |
+      HP | 8                                  |
+         ╰------------------------------------╯
+         ╭------------------------------------╮
+    Name | Abomination                        |
+   Level | elite                              |
+  Attack | Deal 3 Damage and apply Hungry to  |
+         | the player with the fewest Resourc |
+         | es                                 |
+Overkill | stone per overkill                 |
+ Special | AMBUSH | If this enemy is revealed |
+         |  via anything other than a :scout: |
+         | , it gains Strength                |
+      HP | 6                                  |
+         ╰------------------------------------╯
+         ╭------------------------------------╮
+    Name | Dust Sharks                        |
+   Level | elite                              |
+  Attack | Move 1. Deal 2 Melee damage. Move  |
+         | 1. Deal 2 Melee damage.            |
+Overkill | water per overkill                 |
+ Special | CONSTANT MOVEMENT. Takes +1 damage |
+         |  from Rooted.                      |
+      HP | 6                                  |
+         ╰------------------------------------╯
+         ╭------------------------------------╮
+    Name | Witch                              |
+   Level | elite                              |
+  Attack | Deal 3 Ranged damage to a single M |
+         | age job                            |
+Overkill | mage per overkill                  |
+ Special |                                    |
+      HP | 7                                  |
+         ╰------------------------------------╯
+         ╭------------------------------------╮
+    Name | Chaos Demon                        |
+   Level | elite                              |
+  Attack | Choose a random Stolen resource. D |
+         | estroy all of those resources at M |
+         | elee range.                        |
+Overkill | loot per overkill                  |
+ Special | MASSIVE LOOT | Gain 2 stolen Resou |
+         | rces for each HP of overkill       |
+      HP | 6                                  |
+         ╰------------------------------------╯
+         ╭------------------------------------╮
+    Name | Elemental                          |
+   Level | elite                              |
+  Attack | Randomly choose a Resource and dea |
+         | l 3 damage to the player with the  |
+         | most of that resource.             |
+Overkill | research per overkill              |
+ Special |                                    |
+      HP | 5                                  |
+         ╰------------------------------------╯
