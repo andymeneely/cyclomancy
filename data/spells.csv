@@ -7,6 +7,7 @@ Trebuchet,AS,6,Ranged: 2 Damage per stack,Gain 1 Captain per stack,starter
 Squall,AW,5,Deal 2 damage per stack,"Remove Burning. At 2 stacks, also remove Burning from a neighbor",starter
 Flame Gambit,F,5,"For each stack, guess a number 1-6. Roll a D6. If one of your guesses is correct, deal damage equal to the number of stacks.","For each stack, guess a number 1-6. Roll a D6. If one of your guesses is correct, gain 1 Mage for every 2 stacks.",starter
 Fireball,FF,5,Melee: Deal 4 Damage per stack. Caster takes Burning.,Ranged: Deal 3 damage per stack.,starter
+Obsidian Dagger,FWS,3,"Deal 2 Melee damage per stack, overkill damage is spread evenly among all enemies. ","If Enemy has Shield, deal 1 damage per stack but do not break the shield.",starter
 Water Cannon,FWW,4,Deal 3 damage per stack,Deal 2 Damage to 2 different Armies per stack.,starter
 Feast,P,4,Gain 1 Worker per stack,Gain 1 Mage per stack,starter
 Rapid Growth,PP,5,Deal 1 damage per stack,Sow 1 seed per stack (max 3),starter
@@ -22,7 +23,9 @@ Hurricane,AAW,3,Deal 4 damage. Each stack applies to a different Army.,Increase 
 Necromancy,AFF,2,Take 1 Damage and Gain 1 Mage recruitment per stack.,Take 1 Damage and Gain 2 Worker recruitment per stack.,super
 Homing Missile,AFS,2,Deal 3 Ranged damage per stack,"If targeting Dark Mage, deal 5 Ranged damage per stack",super
 Magma Storm,AFS,2,Deal 5 damage per stack,:dig: :dig: per stack.,super
+Incinerate,F,5,Can only be cast at 5 stacks. Instantly kill a Normal enemy. Remove this card from the game.,Gain 1 Fire on this spell.,super
 Eruption,FS,4,3 Ranged Damage per stack.,":dig: :dig: :dig: per stack. Apply Potent per stack, continuing",super
 Shield of Elements,FWS,3,"Gain Shield, continuing to the next player without a shield,","During Attack, if this has at least 1 stack, you may clear all resources on this spell to prevent the next debuff applied to you. ",super
+Obsidian Explosion,FWS,4,"Can only be cast at 4 stacks. Deal 10 damage, spread evenly among Enemies.",Can only be cast at 3 stacks. Gain 9 Air.,super
 Rock Shield,PSS,3,"Gain Shield, continuing to next player on more stacks.","Melee: If you have a Shield token, deal 3 damage per stack, and break the Shield.",super
 Flood,WWW,3,"Deal 2 damage to a different Enemy per stack, and they do not retaliate. ","If Enemy applies Burning, deal 3 damage per stack.  Gain 1 Farmer per stack.",super

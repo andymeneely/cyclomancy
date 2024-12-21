@@ -1,4 +1,5 @@
-#import "@preview/in-dexter:0.0.6": *
+#import "@preview/in-dexter:0.5.3": *
+
 #set enum(numbering: "1.a)")
 #set page(
   width: 7in,
@@ -6,10 +7,13 @@
   margin: (inside: 0.5in),
   numbering: "1"
 )
+
 #set text(
   spacing: 80%,
-  font: "Georgia",
+  font: "Roboto",
+  size: 10pt
 )
+
 #set par(leading: 0.40em)
 
 #let capitalize(str) = {
@@ -22,7 +26,11 @@
     index(name + image("../img/" + name.text + ".svg"))
 }
 
-= Cyclomancy
+#let baddie(str) = { text(str, font: "Splash", size: 24pt) }
+#let fancy(str) = { text(str, font: "Rothenburg Decorative", size: 24pt) }
+
+
+#align(center)[ #fancy[Cyclomancy] ]
 
 = Component List
 
@@ -46,13 +54,13 @@ TBD
     + Then, deal 3 Normal Enemies on top of each pile.
     + The result should a number piles equal to the number of players, each with 3 Elite and 3 Normal Enemies, with the Dark Mage unknown somewhere in the Elites.
 + Place the *Resources and Meeples* in reach of everyone at the table, including:
-    + Water
-    + Plantsx
-    + Stone
-    + Fire
-    + Wind
-    + Workers
-    + Mages
+    + #action[Water] cubes
+    + #action[Plant] cubes
+    + #action[Stone] cubes
+    + #action[Fire] cubes
+    + #action[Air] cubes
+    + #action[Worker] meeples
+    + #action[Mage] meeples
 + Set up *Neighborhood* cards:
     + Deal 3 cardss face-up to each player.
     + You may (*should!*) openly discuss what spells and neighborhood cards you have with other players.
@@ -73,10 +81,12 @@ The order of play loops between:
     + Cycle spells
     + Enemy phase
 
+== Player Phase
+#index[Player Phase]
 
 During the *Player Phase*, players may spend their Mages, Workers, and Resources on their City Sheet, as well as cast a spell (see Casting Spells). The player phase is simultaneous, collaborative play. Players have no secrets to keep from each other, and are encouraged to discuss and to help each other.
 
-For *Income*, each player gains a :water: for each circle in :water-income:, similarly for :mage-income:, and :worker-income:. #index[income]
+For *Income*, #index[*Income*] each player gains a #action[water] for each circle in #action[water-income], similarly for #action[mage-income], and #action[worker-income].
 
 For Grow, players may spend Water :water: to grow their crops. See Farm section for how growing works.
 
@@ -111,7 +121,7 @@ The Scouting Party takes a Worker or Mage and you fill in a pentagon-shaped slot
 
 == Farm
 
-The Farm is the primary source of gaining Plants. In each hex-shaped slot, you can place either a Sprinkler with a :sprinkler: or seeds :seed:. A Sprinkler represents the irrigation needed for growing your crops, and is drawn by drawing lines from opposite corners of the hex. You cannot place a Sprinkler :sprinkler: on a slot with Stone :stone:.
+The Farm is the primary source of gaining Plants. In each hex-shaped slot, you can place either a Sprinkler with a :#action[sprinkler] or seeds :seed:. A Sprinkler represents the irrigation needed for growing your crops, and is drawn by drawing lines from opposite corners of the hex. You cannot place a Sprinkler :sprinkler: on a slot with Stone :stone:.
 
 The hex slots with dotted lines are parts of your land that you do not own yet. When you gain the :expand-farm: action, you fill in the dotted lines and can treat it like any other slot.
 

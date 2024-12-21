@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'squib'
+gem 'squib', '0.19.0a'
 gem 'guard'
 gem 'guard-rake'
 gem 'httparty'

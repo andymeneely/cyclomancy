@@ -1,0 +1,72 @@
+body_font:
+  font: Georgia 11
+  x: 75
+  y: 220
+  width:  675
+  height: 200
+  ellipsize: autoscale
+  # hint: red
+
+name:
+  x: 90
+  y: 120
+  width: 640
+  height: 50
+  valign: middle
+  font: Rothenburg Decorative 24
+  align: center
+  ellipsize: autoscale
+
+clear_name:
+  extends: name
+  y: 200
+  font: Arial Bold 10
+
+
+reqs:
+  x: 90
+  y: 500
+  width: deck - 180
+  height: 100
+  font: Arial 22
+  align: center
+
+desc:
+  extends: body_font
+  x: 90
+  y: 245
+  width: deck - 180
+  height: 200
+  align: center
+  valign: middle
+  # hint: red
+  ellipsize: autoscale
+  version:
+
+desc2:
+  extends: desc
+  y: 675
+  height: 350
+
+
+stacks:
+  extends: body_font
+  font: Georgia Bold 11
+  x: 0
+  y: 600
+  width: 825
+  align: center
+  color: white
+
+  # hint: red
+
+type:
+  font: Georgia 8
+  x: 90
+  y: 1025
+
+
+version:
+  font: Arial 6
+  x: 725
+  y: 45
